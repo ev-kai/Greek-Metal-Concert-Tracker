@@ -12,7 +12,7 @@ import json
 import logging
 import os
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
@@ -26,6 +26,7 @@ LOGGER = logging.getLogger("metal-greece")
 ROOT = Path(__file__).resolve().parent
 OUTPUT_FILE = ROOT / "shows.json"
 REQUEST_TIMEOUT = 45
+EVENT_HORIZON_DAYS = 365
 
 # These are landing pages, rather than fragile individual event URLs. Sites
 # can change their layout without requiring a code change here.
@@ -211,8 +212,49 @@ def city_for(text: str) -> str:
 	return "other"
 
 
+def city_label(city: str) -> str:
+	return {
+		"athens": "Athens",
+		"thessaloniki": "Thessaloniki",
+		"other": "Other city",
+	}.get(city, "Other city")
+
+
+def clean_venue(venue: str, city: str) -> str:
+	venue = re.sub(r"\s+", " ", venue).strip(" ,") or "Venue TBA"
+	label = city_label(city)
+	venue = re.sub(r"\s*,?\s*(?:Athens|Αθήνα|Thessaloniki|Θεσσαλονίκη|Πάτρα|Patra)\s*$", "", venue, flags=re.IGNORECASE)
+	return f"{venue}, {label}"
+
+
+def canonical_band(value: str) -> str:
+	value = value.casefold()
+	value = re.sub(r"\b(special guests?|with special guests?|live in (athens|greece)|athens|thessaloniki)\b", "", value)
+	return re.sub(r"[^a-z0-9α-ω]+", "", value)
+
+
+def clean_band_name(value: str) -> str:
+	value = re.sub(r"\s+", " ", value).strip()
+	if "|" in value and re.search(r"\b\d{1,2}\b", value):
+		value = value.split("|", 1)[0].strip()
+	return re.split(
+		r"\s+(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Δευτέρα|Τρίτη|Τετάρτη|Πέμπτη|Παρασκευή|Σάββατο|Κυριακή)\b.*$",
+		value,
+		maxsplit=1,
+		flags=re.IGNORECASE,
+	)[0].strip(" -|–—")
+
+
+def within_horizon(event_date: str) -> bool:
+	try:
+		candidate = date.fromisoformat(event_date)
+	except ValueError:
+		return False
+	return date.today() <= candidate <= date.today() + timedelta(days=EVENT_HORIZON_DAYS)
+
+
 def normalize_event(event: dict[str, Any], source: str, page_url: str) -> dict[str, str] | None:
-	name = as_text(event.get("name"))
+	name = clean_band_name(as_text(event.get("name")))
 	event_date = parse_date(event.get("startDate"))
 	location = event.get("location", {})
 	venue = as_text(location.get("name") if isinstance(location, dict) else location)
@@ -220,7 +262,7 @@ def normalize_event(event: dict[str, Any], source: str, page_url: str) -> dict[s
 	if isinstance(address, dict):
 		venue = ", ".join(part for part in [venue, as_text(address.get("addressLocality"))] if part)
 	searchable = f"{name} {venue} {as_text(event.get('description'))}"
-	if not name or not event_date or event_date < date.today().isoformat():
+	if not name or not event_date or not within_horizon(event_date):
 		return None
 	if not METAL_WORDS.search(searchable):
 		return None
@@ -228,7 +270,7 @@ def normalize_event(event: dict[str, Any], source: str, page_url: str) -> dict[s
 	return {
 		"date": event_date,
 		"band": name,
-		"venue": venue or "Venue TBA",
+		"venue": clean_venue(venue, city_for(searchable)),
 		"city": city_for(searchable),
 		"link": urljoin(page_url, str(link)),
 		"source": source,
@@ -247,15 +289,16 @@ def normalize_card(
 	allow_without_metal_word: bool = False,
 ) -> dict[str, str] | None:
 	"""Normalize an event found in ordinary HTML instead of JSON-LD."""
+	name = clean_band_name(name)
 	searchable = f"{name} {venue} {city}"
-	if not name or not event_date or event_date < date.today().isoformat():
+	if not name or not event_date or not within_horizon(event_date):
 		return None
 	if not allow_without_metal_word and not (METAL_WORDS.search(searchable) or METAL_VENUES.search(venue)):
 		return None
 	return {
 		"date": event_date,
 		"band": name,
-		"venue": venue or "Venue TBA",
+		"venue": clean_venue(venue, city_for(searchable)),
 		"city": city_for(searchable),
 		"link": urljoin(page_url, link),
 		"source": source,
@@ -400,15 +443,23 @@ def scrape_official_calendar(
 		date_value = parse_month_day(context)
 		if not date_value:
 			continue
-			name = re.sub(
-				r"\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,?\s+\d{4})?|\b\d{1,2}[./-]\d{1,2}[./-]\d{4}\b|\b\d{1,2}\s+(?:" + "|".join(GREEK_MONTHS) + r")\b",
-				"",
-				name,
-				flags=re.IGNORECASE,
-			).strip(" -|–—")
-			show = normalize_card(name, date_value, source, city, href, source, page_url)
-			if show:
-				shows.append(show)
+		name = re.sub(
+			r"\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,?\s+\d{4})?|\b\d{1,2}[./-]\d{1,2}[./-]\d{4}\b|\b\d{1,2}\s+(?:" + "|".join(GREEK_MONTHS) + r")\b",
+			"",
+			name,
+			flags=re.IGNORECASE,
+		).strip(" -|–—")
+		name = re.split(
+			r"\s+(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Δευτέρα|Τρίτη|Τετάρτη|Πέμπτη|Παρασκευή|Σάββατο|Κυριακή)\b.*$",
+			name,
+			maxsplit=1,
+			flags=re.IGNORECASE,
+		)[0].strip(" -|–—")
+		if "|" in name and re.search(r"\b\d{1,2}\b", name):
+			name = name.split("|", 1)[0].strip()
+		show = normalize_card(name, date_value, "", city, href, source, page_url)
+		if show:
+			shows.append(show)
 	return shows
 
 
@@ -462,7 +513,7 @@ def scrape_eightball(soup: BeautifulSoup, source: str, page_url: str) -> list[di
 def scrape_source(source: str, url: str, session: requests.Session) -> list[dict[str, str]]:
 	response = session.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
 	response.raise_for_status()
-	response.encoding = response.apparent_encoding or response.encoding
+	response.encoding = "utf-8"
 	soup = BeautifulSoup(response.text, "html.parser")
 	shows = []
 	for script in soup.select('script[type="application/ld+json"]'):
@@ -481,7 +532,7 @@ def scrape_source(source: str, url: str, session: requests.Session) -> list[dict
 	elif source == "Metalwar.gr":
 		feed_response = session.get("https://www.metalwar.gr/feed/", headers=HEADERS, timeout=REQUEST_TIMEOUT)
 		feed_response.raise_for_status()
-		feed_response.encoding = feed_response.apparent_encoding or feed_response.encoding
+		feed_response.encoding = "utf-8"
 		shows.extend(scrape_metalwar_feed(feed_response.text, source, feed_response.url))
 	elif source == "More.com Greece Music":
 		shows.extend(scrape_more_music(soup, source, response.url))
@@ -499,7 +550,7 @@ def scrape_source(source: str, url: str, session: requests.Session) -> list[dict
 
 
 def fingerprint(show: dict[str, str]) -> str:
-	key = "|".join(show[field].casefold() for field in ("date", "band", "venue"))
+	key = "|".join((show["date"], canonical_band(show["band"]), show["city"]))
 	return hashlib.sha256(key.encode()).hexdigest()
 
 
@@ -510,7 +561,16 @@ def collect() -> list[dict[str, str]]:
 		try:
 			found = scrape_source(source, url, session)
 			for show in found:
-				all_shows[fingerprint(show)] = show
+				key = fingerprint(show)
+				if key not in all_shows:
+					show["links"] = []
+					all_shows[key] = show
+				links = all_shows[key]["links"]
+				link_record = {"source": show["source"], "url": show["link"]}
+				if link_record not in links:
+					links.append(link_record)
+				all_shows[key]["venue"] = clean_venue(all_shows[key]["venue"], all_shows[key]["city"])
+				all_shows[key].pop("link", None)
 			LOGGER.info("%s: found %d event(s)", source, len(found))
 		except requests.RequestException as error:
 			LOGGER.warning("%s unavailable: %s", source, error)

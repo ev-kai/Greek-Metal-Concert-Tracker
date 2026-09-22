@@ -427,6 +427,21 @@
     return new Date(y, m-1, d);
   }
 
+  function cityLabel(city){
+    return city === "athens" ? "Athens" : city === "thessaloniki" ? "Thessaloniki" : "Other city";
+  }
+
+  function displayVenue(show){
+    const label = cityLabel(show.city);
+    const venue = (show.venue || "Venue TBA").replace(/\s*,?\s*(Athens|Αθήνα|Thessaloniki|Θεσσαλονίκη|Other city)\s*$/i, "");
+    return venue + ", " + label;
+  }
+
+  function detailLinks(show){
+    if(Array.isArray(show.links)) return show.links;
+    return show.link ? [{source:show.source || "Event", url:show.link}] : [];
+  }
+
   const listRoot = document.getElementById("listRoot");
   const emptyState = document.getElementById("emptyState");
   let currentFilter = "all";
@@ -454,16 +469,17 @@
 
       const row = document.createElement("div");
       row.className = "show";
-      const cityLabel = s.city === "athens" ? "Athens" : s.city === "thessaloniki" ? "Thessaloniki" : "";
-      const venueHtml = cityLabel && s.venue.includes(cityLabel)
-        ? s.venue.replace(cityLabel, '<span class="city-tag">' + cityLabel + '</span>')
-        : s.venue;
+      const venueParts = displayVenue(s).split(", ");
+      const venueHtml = venueParts.slice(0, -1).join(", ") + ', <span class="city-tag">' + venueParts.at(-1) + '</span>';
+      const linksHtml = detailLinks(s).map(link =>
+        '<a class="link" href="' + link.url + '" target="_blank" rel="noopener">' + link.source + '</a>'
+      ).join(" ");
       row.innerHTML =
         '<div class="date"><span class="day">' + String(d.getDate()).padStart(2,"0") + '</span><span class="dow">' + DOW[d.getDay()] + '</span></div>' +
         '<div class="info">' +
           '<p class="band">' + s.band + '</p>' +
           '<p class="venue">' + venueHtml + '</p>' +
-          (s.link ? '<a class="link" href="' + s.link + '" target="_blank" rel="noopener">Event details</a>' : '') +
+          linksHtml +
         '</div>';
       listRoot.appendChild(row);
       visibleCount++;
@@ -481,7 +497,7 @@
     const daysAway = Math.round((d - today) / 86400000);
     document.getElementById("nextBand").textContent = upcoming.band;
     document.getElementById("nextMeta").textContent =
-      DOW[d.getDay()] + ", " + MONTHS[d.getMonth()] + " " + d.getDate() + " " + d.getFullYear() + " — " + upcoming.venue;
+      DOW[d.getDay()] + ", " + MONTHS[d.getMonth()] + " " + d.getDate() + " " + d.getFullYear() + " — " + displayVenue(upcoming);
     document.getElementById("nextCountdown").innerHTML =
       "<b>" + (daysAway === 0 ? "TODAY" : daysAway) + "</b>" + (daysAway === 0 ? "" : (daysAway === 1 ? "day away" : "days away"));
     document.getElementById("nextShow").classList.add("is-ready");
