@@ -39,6 +39,7 @@ DEFAULT_SOURCES = {
 	"Metalwar.gr": "https://metalwar.gr/",
 	"More.com Greece Music": "https://www.more.com/gr-el/tickets/music/",
 	"Gagarin 205": "https://gagarin205.gr/events/",
+	"Gagarin 205 Announcements": "https://gagarin205.gr/",
 	"Fuzz Club": "https://www.fuzzclub.gr/events/list/",
 	"Floyd": "https://www.floyd.gr/events/list/",
 	"Eightball Club": "https://eightballclub.gr/",
@@ -420,6 +421,7 @@ def scrape_official_calendar(
 	*,
 	city: str = "athens",
 	link_pattern: str = "/event/",
+	session: requests.Session | None = None,
 ) -> list[dict[str, str]]:
 	"""Read event cards from an official venue or ticketing calendar."""
 	shows = []
@@ -441,6 +443,21 @@ def scrape_official_calendar(
 				if parse_month_day(context):
 					break
 		date_value = parse_month_day(context)
+		detail_soup = None
+		detail_is_metal = False
+		if session and source.startswith("Gagarin 205"):
+			try:
+				detail_response = session.get(urljoin(page_url, href), headers=HEADERS, timeout=REQUEST_TIMEOUT)
+				detail_response.raise_for_status()
+				detail_response.encoding = "utf-8"
+				detail_soup = BeautifulSoup(detail_response.text, "html.parser")
+				detail_text = detail_soup.get_text(" ", strip=True)
+				date_value = parse_month_day(detail_text)
+				detail_is_metal = bool(METAL_WORDS.search(detail_text))
+				if detail_soup.find("h1"):
+					name = event_link_text(detail_soup.find("h1"))
+			except requests.RequestException:
+				pass
 		if not date_value:
 			continue
 		name = re.sub(
@@ -457,7 +474,18 @@ def scrape_official_calendar(
 		)[0].strip(" -|–—")
 		if "|" in name and re.search(r"\b\d{1,2}\b", name):
 			name = name.split("|", 1)[0].strip()
-		show = normalize_card(name, date_value, "", city, href, source, page_url)
+		show = normalize_card(name, date_value, "", city, href, source, page_url, allow_without_metal_word=detail_is_metal)
+		if not show and session:
+			try:
+				detail_response = session.get(urljoin(page_url, href), headers=HEADERS, timeout=REQUEST_TIMEOUT)
+				detail_response.raise_for_status()
+				detail_response.encoding = "utf-8"
+				detail_soup = BeautifulSoup(detail_response.text, "html.parser")
+				detail_text = detail_soup.get_text(" ", strip=True)
+				if METAL_WORDS.search(detail_text):
+					show = normalize_card(name, date_value, "", city, href, source, page_url, allow_without_metal_word=True)
+			except requests.RequestException:
+				pass
 		if show:
 			shows.append(show)
 	return shows
@@ -510,6 +538,50 @@ def scrape_eightball(soup: BeautifulSoup, source: str, page_url: str) -> list[di
 	return shows
 
 
+def scrape_event_detail(soup: BeautifulSoup, source: str, page_url: str, venue: str, city: str) -> list[dict[str, str]]:
+	text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+	date_value = parse_month_day(text)
+	if not date_value:
+		return []
+	title = soup.find("h1")
+	name = event_link_text(title) if title else ""
+	show = normalize_card(name, date_value, venue, city, page_url, source, page_url, allow_without_metal_word=True)
+	if show:
+		show["extra_links"] = [
+			urljoin(page_url, anchor["href"])
+			for anchor in soup.find_all("a", href=True)
+			if "more.com/gr-el/tickets/" in anchor["href"]
+		]
+	return [show] if show else []
+
+
+def scrape_discovered_details(soup: BeautifulSoup, source: str, page_url: str, session: requests.Session) -> list[dict[str, str]]:
+	shows = []
+	seen = set()
+	for anchor in soup.find_all("a", href=True):
+		href = urljoin(page_url, anchor["href"])
+		if "/event/" not in href or href in seen:
+			continue
+		seen.add(href)
+		try:
+			response = session.get(href, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+			response.raise_for_status()
+			response.encoding = "utf-8"
+			detail_soup = BeautifulSoup(response.text, "html.parser")
+			text = detail_soup.get_text(" ", strip=True)
+			if not METAL_WORDS.search(text):
+				continue
+			date_value = parse_month_day(text)
+			title = detail_soup.find("h1")
+			name = event_link_text(title) if title else event_link_text(anchor)
+			show = normalize_card(name, date_value, "Gagarin 205", "athens", href, source, page_url, allow_without_metal_word=True)
+			if show:
+				shows.append(show)
+		except requests.RequestException:
+			continue
+	return shows
+
+
 def scrape_source(source: str, url: str, session: requests.Session) -> list[dict[str, str]]:
 	response = session.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
 	response.raise_for_status()
@@ -537,7 +609,9 @@ def scrape_source(source: str, url: str, session: requests.Session) -> list[dict
 	elif source == "More.com Greece Music":
 		shows.extend(scrape_more_music(soup, source, response.url))
 	elif source == "Gagarin 205":
-		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/"))
+		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/", session=session))
+	elif source == "Gagarin 205 Announcements":
+		shows.extend(scrape_discovered_details(soup, source, response.url, session))
 	elif source == "Fuzz Club":
 		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/"))
 	elif source == "Floyd":
@@ -569,8 +643,13 @@ def collect() -> list[dict[str, str]]:
 				link_record = {"source": show["source"], "url": show["link"]}
 				if link_record not in links:
 					links.append(link_record)
+				for extra_link in show.get("extra_links", []):
+					extra_record = {"source": "Ticket page", "url": extra_link}
+					if extra_record not in links:
+						links.append(extra_record)
 				all_shows[key]["venue"] = clean_venue(all_shows[key]["venue"], all_shows[key]["city"])
 				all_shows[key].pop("link", None)
+				all_shows[key].pop("extra_links", None)
 			LOGGER.info("%s: found %d event(s)", source, len(found))
 		except requests.RequestException as error:
 			LOGGER.warning("%s unavailable: %s", source, error)

@@ -112,6 +112,10 @@
       {
         "source": "Gagarin 205",
         "url": "https://gagarin205.gr/event/joe-lynn-turner/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/joe-lynn-turner/"
       }
     ]
   },
@@ -164,6 +168,10 @@
       {
         "source": "Gagarin 205",
         "url": "https://gagarin205.gr/event/seksendort-live-in-athens/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/seksendort-live-in-athens/"
       }
     ]
   },
@@ -190,6 +198,10 @@
       {
         "source": "Gagarin 205",
         "url": "https://gagarin205.gr/event/mayhem-unleashed/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/mayhem-unleashed/"
       }
     ]
   },
@@ -207,25 +219,17 @@
     ]
   },
   {
-    "date": "2026-10-09",
-    "band": "Lera Lynn",
+    "date": "2026-10-10",
+    "band": "Messiah, Piranha, The Crucifier",
     "venue": "Temple, Athens",
     "city": "athens",
     "source": "Rocking.gr Agenda",
     "links": [
       {
         "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
       }
     ]
-  },
-  {
-    "date": "2026-10-09",
-    "band": "Lera Lynn",
-    "venue": "Temple",
-    "city": "athens",
-    "link": "https://www.rocking.gr/agenda/2026/10/9/27441",
-    "source": "Rocking.gr Agenda"
   },
   {
     "date": "2026-10-11",
@@ -236,6 +240,10 @@
     "links": [
       {
         "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/suffocation/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/suffocation/"
       }
     ]
@@ -250,6 +258,58 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/naxatras/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "band": "Coroner +Depressive Age +Cryptic Shift",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/coroner-depressive-age-cryptic-shift/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "band": "HALLOWEEN LIVE CHAOS",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/halloween-live-chaos/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "band": "DELINES FEST",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/delines-fest/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "band": "KAARIJA",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/kaarija/"
       }
     ]
   },
@@ -280,6 +340,19 @@
     ]
   },
   {
+    "date": "2026-12-19",
+    "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
+      }
+    ]
+  },
+  {
     "date": "2027-02-11",
     "band": "Black Veil Brides / Special Guests: The Funeral Portrait & The Howling.",
     "venue": "FLOYD, Athens",
@@ -302,6 +375,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/soen/"
+      }
+    ]
+  },
+  {
+    "date": "2027-05-24",
+    "band": "NEVEMORE",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/nevemore/"
       }
     ]
   }
