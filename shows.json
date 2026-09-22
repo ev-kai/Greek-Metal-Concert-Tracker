@@ -156,32 +156,6 @@
     ]
   },
   {
-    "date": "2026-09-30",
-    "band": "Kawir",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Metalwar.gr",
-    "links": [
-      {
-        "source": "Metalwar.gr",
-        "url": "https://www.metalwar.gr/kawir-30-chronia-pros-kavirous-live-se-athina-ke-thessaloniki/"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-01",
-    "band": "Kawir",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Metalwar.gr",
-    "links": [
-      {
-        "source": "Metalwar.gr",
-        "url": "https://www.metalwar.gr/kawir-30-chronia-pros-kavirous-live-se-athina-ke-thessaloniki/"
-      }
-    ]
-  },
-  {
     "date": "2026-10-02",
     "band": "Frenzee, The Klammers",
     "venue": "AN Club, Athens",
@@ -291,19 +265,6 @@
   },
   {
     "date": "2026-10-04",
-    "band": "Kawir",
-    "venue": "Venue TBA, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Metalwar.gr",
-    "links": [
-      {
-        "source": "Metalwar.gr",
-        "url": "https://www.metalwar.gr/kawir-30-chronia-pros-kavirous-live-se-athina-ke-thessaloniki/"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-04",
     "band": "Metal Without Mercy Festival: Metalucifer, Pentacle κ.α.",
     "venue": "Κύτταρο, Athens",
     "city": "athens",
@@ -380,8 +341,12 @@
     "band": "Lera Lynn",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
@@ -458,12 +423,8 @@
     "band": "Messiah, Piranha, The Crucifier",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
