@@ -4,19 +4,11 @@
     "band": "Blackbriar",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/22/27403"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/22/27403"
-      },
-      {
-        "source": "Eightball Club",
-        "url": "https://eightballclub.gr/event/blackbriar-22-09-2026-eightball/"
       }
     ]
   },
@@ -341,8 +333,12 @@
     "band": "Lera Lynn",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
