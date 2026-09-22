@@ -12,7 +12,9 @@ import json
 import logging
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
@@ -32,12 +34,14 @@ EVENT_HORIZON_DAYS = 365
 # can change their layout without requiring a code change here.
 DEFAULT_SOURCES = {
 	"Rocking.gr Agenda": "https://www.rocking.gr/agenda",
+	"Rocking.gr Future Agenda": "https://www.rocking.gr/agenda",
 	"Metal Storm Events": "https://www.metalstorm.net/events/country/greece",
 	"Concerts-Metal Greece": "https://www.concerts-metal.com/country/Greece",
 	"Songkick Athens Metal": "https://www.songkick.com/metro-areas/28965-greece-athens/genre/metal",
 	"Bandsintown Athens Metal": "https://www.bandsintown.com/c/athens-greece?genre=metal",
 	"Metalwar.gr": "https://metalwar.gr/",
 	"More.com Greece Music": "https://www.more.com/gr-el/tickets/music/",
+	"More.com Music Sitemap": "https://www.more.com/googlesitemap.xml",
 	"Gagarin 205": "https://gagarin205.gr/events/",
 	"Gagarin 205 Announcements": "https://gagarin205.gr/",
 	"Fuzz Club": "https://www.fuzzclub.gr/events/list/",
@@ -445,7 +449,7 @@ def scrape_official_calendar(
 		date_value = parse_month_day(context)
 		detail_soup = None
 		detail_is_metal = False
-		if session and source.startswith("Gagarin 205"):
+		if session:
 			try:
 				detail_response = session.get(urljoin(page_url, href), headers=HEADERS, timeout=REQUEST_TIMEOUT)
 				detail_response.raise_for_status()
@@ -475,17 +479,6 @@ def scrape_official_calendar(
 		if "|" in name and re.search(r"\b\d{1,2}\b", name):
 			name = name.split("|", 1)[0].strip()
 		show = normalize_card(name, date_value, "", city, href, source, page_url, allow_without_metal_word=detail_is_metal)
-		if not show and session:
-			try:
-				detail_response = session.get(urljoin(page_url, href), headers=HEADERS, timeout=REQUEST_TIMEOUT)
-				detail_response.raise_for_status()
-				detail_response.encoding = "utf-8"
-				detail_soup = BeautifulSoup(detail_response.text, "html.parser")
-				detail_text = detail_soup.get_text(" ", strip=True)
-				if METAL_WORDS.search(detail_text):
-					show = normalize_card(name, date_value, "", city, href, source, page_url, allow_without_metal_word=True)
-			except requests.RequestException:
-				pass
 		if show:
 			shows.append(show)
 	return shows
@@ -509,6 +502,60 @@ def scrape_more_music(soup: BeautifulSoup, source: str, page_url: str) -> list[d
 		show = normalize_card(name, date_value, "", "", anchor["href"], source, page_url)
 		if show:
 			shows.append(show)
+	return shows
+
+
+def scrape_more_sitemap(xml: bytes, source: str, page_url: str) -> list[dict[str, str]]:
+	root = ElementTree.fromstring(xml)
+	namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+	urls = [
+		node.text
+		for node in root.findall(".//s:loc", namespace)
+		if node.text and "/gr-el/tickets/music/" in node.text
+	]
+
+	def fetch_event(url: str) -> dict[str, str] | None:
+		try:
+			response = requests.get(url, headers=HEADERS, timeout=(5, 12))
+			response.raise_for_status()
+			response.encoding = "utf-8"
+			soup = BeautifulSoup(response.text, "html.parser")
+			text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+			if not METAL_WORDS.search(text):
+				return None
+			date_value = parse_month_day(text)
+			title = soup.find("h1") or soup.find("title")
+			name = event_link_text(title) if title else ""
+			city = "thessaloniki" if re.search(r"Thessaloniki|Θεσσαλονίκη", text, re.IGNORECASE) else "athens"
+			return normalize_card(name, date_value, "Venue TBA", city, url, source, page_url, allow_without_metal_word=True)
+		except (requests.RequestException, ElementTree.ParseError):
+			return None
+
+	shows = []
+	with ThreadPoolExecutor(max_workers=12) as executor:
+		for future in as_completed([executor.submit(fetch_event, url) for url in urls]):
+			show = future.result()
+			if show:
+				shows.append(show)
+	return shows
+
+
+def scrape_rocking_future_months(soup: BeautifulSoup, source: str, page_url: str, session: requests.Session) -> list[dict[str, str]]:
+	shows = []
+	seen = set()
+	for anchor in soup.find_all("a", href=True):
+		href = urljoin(page_url, anchor["href"])
+		if not re.search(r"/agenda/\d{4}/\d{1,2}(?:/(?:athens|thessaloniki))?$", href) or href in seen:
+			continue
+		seen.add(href)
+		try:
+			response = session.get(href, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+			response.raise_for_status()
+			response.encoding = "utf-8"
+			month_soup = BeautifulSoup(response.text, "html.parser")
+			shows.extend(scrape_rocking_agenda(month_soup, source, response.url))
+		except requests.RequestException:
+			continue
 	return shows
 
 
@@ -585,6 +632,8 @@ def scrape_discovered_details(soup: BeautifulSoup, source: str, page_url: str, s
 def scrape_source(source: str, url: str, session: requests.Session) -> list[dict[str, str]]:
 	response = session.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
 	response.raise_for_status()
+	if source == "More.com Music Sitemap":
+		return scrape_more_sitemap(response.content, source, response.url)
 	response.encoding = "utf-8"
 	soup = BeautifulSoup(response.text, "html.parser")
 	shows = []
@@ -599,6 +648,8 @@ def scrape_source(source: str, url: str, session: requests.Session) -> list[dict
 				shows.append(normalized)
 	if source == "Rocking.gr Agenda":
 		shows.extend(scrape_rocking_agenda(soup, source, response.url))
+	elif source == "Rocking.gr Future Agenda":
+		shows.extend(scrape_rocking_future_months(soup, source, response.url, session))
 	elif source == "Bandsintown Athens Metal":
 		shows.extend(scrape_bandsintown(soup, source, response.url))
 	elif source == "Metalwar.gr":
@@ -613,19 +664,29 @@ def scrape_source(source: str, url: str, session: requests.Session) -> list[dict
 	elif source == "Gagarin 205 Announcements":
 		shows.extend(scrape_discovered_details(soup, source, response.url, session))
 	elif source == "Fuzz Club":
-		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/"))
+		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/", session=session))
 	elif source == "Floyd":
-		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/"))
+		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/", session=session))
 	elif source == "Eightball Club":
 		shows.extend(scrape_eightball(soup, source, response.url))
 	elif source == "Kyttaro Live":
-		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/"))
+		shows.extend(scrape_official_calendar(soup, source, response.url, link_pattern="/event/", session=session))
 	return shows
 
 
 def fingerprint(show: dict[str, str]) -> str:
 	key = "|".join((show["date"], canonical_band(show["band"]), show["city"]))
 	return hashlib.sha256(key.encode()).hexdigest()
+
+
+def matching_key(show: dict[str, Any], records: dict[str, dict[str, Any]]) -> str:
+	key = fingerprint(show)
+	for existing_key, existing in records.items():
+		if existing["date"] == show["date"] and existing["city"] == show["city"]:
+			ratio = SequenceMatcher(None, canonical_band(existing["band"]), canonical_band(show["band"])).ratio()
+			if ratio >= 0.88:
+				return existing_key
+	return key
 
 
 def collect() -> list[dict[str, str]]:
@@ -635,7 +696,7 @@ def collect() -> list[dict[str, str]]:
 		try:
 			found = scrape_source(source, url, session)
 			for show in found:
-				key = fingerprint(show)
+				key = matching_key(show, all_shows)
 				if key not in all_shows:
 					show["links"] = []
 					all_shows[key] = show
@@ -655,7 +716,25 @@ def collect() -> list[dict[str, str]]:
 			LOGGER.warning("%s unavailable: %s", source, error)
 		except Exception:
 			LOGGER.exception("Could not parse %s", source)
-	return sorted(all_shows.values(), key=lambda item: (item["date"], item["band"].casefold()))
+	# Collapse any records that arrived in different shapes, including legacy
+	# records that still use the old single-link field.
+	merged: dict[str, dict[str, Any]] = {}
+	for show in all_shows.values():
+		show["band"] = clean_band_name(show["band"])
+		show["venue"] = clean_venue(show.get("venue", "Venue TBA"), show["city"])
+		key = matching_key(show, merged)
+		if key not in merged:
+			show["links"] = list(show.get("links", []))
+			merged[key] = show
+		for link in show.get("links", []):
+			if link not in merged[key]["links"]:
+				merged[key]["links"].append(link)
+		if show.get("link"):
+			legacy_link = {"source": show.get("source", "Event"), "url": show["link"]}
+			if legacy_link not in merged[key]["links"]:
+				merged[key]["links"].append(legacy_link)
+		merged[key].pop("link", None)
+	return sorted(merged.values(), key=lambda item: (item["date"], item["band"].casefold()))
 
 
 def write_output(shows: list[dict[str, str]]) -> None:

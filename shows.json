@@ -11,6 +11,10 @@
         "url": "https://www.rocking.gr/agenda/2026/9/22/27403"
       },
       {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/22/27403"
+      },
+      {
         "source": "Eightball Club",
         "url": "https://eightballclub.gr/event/blackbriar-22-09-2026-eightball/"
       }
@@ -25,6 +29,10 @@
     "links": [
       {
         "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/23/27404"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/23/27404"
       },
       {
@@ -43,6 +51,10 @@
       {
         "source": "Rocking.gr Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/23/27520"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/23/27520"
       }
     ]
   },
@@ -55,6 +67,10 @@
     "links": [
       {
         "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/25/27506"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/25/27506"
       }
     ]
@@ -69,6 +85,10 @@
       {
         "source": "Rocking.gr Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/25/27488"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/25/27488"
       }
     ]
   },
@@ -82,6 +102,14 @@
       {
         "source": "Rocking.gr Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/25/27256"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/25/27256"
+      },
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/ty-segall/"
       }
     ]
   },
@@ -95,6 +123,10 @@
       {
         "source": "Rocking.gr Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/26/27460"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/26/27460"
       }
     ]
   },
@@ -107,6 +139,10 @@
     "links": [
       {
         "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/27/27291"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/27/27291"
       },
       {
@@ -147,6 +183,19 @@
   },
   {
     "date": "2026-10-02",
+    "band": "Frenzee, The Klammers",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/2/27501"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
     "band": "GONG (UK)",
     "venue": "Eightball Club, Thessaloniki",
     "city": "thessaloniki",
@@ -155,6 +204,58 @@
       {
         "source": "Eightball Club",
         "url": "https://eightballclub.gr/event/gong-uk-02-10-2026-thessaloniki/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "band": "Metal Without Mercy Festival: Bulldozer, Desolation Angels κ.α.",
+    "venue": "Κύτταρο, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/2/27427"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "band": "The Young Gods",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/2/27364"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "band": "Darkened Nocturn Slaughtercult, SAD, Athanatos",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/3/27498"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "band": "Metal Without Mercy Festival: Sabbat, Torananga κ.α.",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/3/27428"
       }
     ]
   },
@@ -176,6 +277,19 @@
     ]
   },
   {
+    "date": "2026-10-03",
+    "band": "The Prisoners: Somewhere In Time – 40 Years Anniversary, Obscurus Rex",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/3/27515"
+      }
+    ]
+  },
+  {
     "date": "2026-10-04",
     "band": "Kawir",
     "venue": "Venue TBA, Thessaloniki",
@@ -189,12 +303,29 @@
     ]
   },
   {
-    "date": "2026-10-07",
-    "band": "MAYHEM + UNLEASHED",
-    "venue": "Gagarin205, Athens",
+    "date": "2026-10-04",
+    "band": "Metal Without Mercy Festival: Metalucifer, Pentacle κ.α.",
+    "venue": "Κύτταρο, Athens",
     "city": "athens",
-    "source": "Gagarin 205",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/4/27429"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "band": "Mayhem, Unleashed",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/7/27462"
+      },
       {
         "source": "Gagarin 205",
         "url": "https://gagarin205.gr/event/mayhem-unleashed/"
@@ -202,6 +333,32 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/mayhem-unleashed/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "band": "Mayhem",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/8/27463"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "band": "Doro",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/9/27368"
       }
     ]
   },
@@ -223,21 +380,95 @@
     "band": "Lera Lynn",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
       {
-        "source": "Rocking.gr Agenda",
+        "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
       }
     ]
   },
   {
     "date": "2026-10-09",
-    "band": "Lera Lynn",
-    "venue": "Temple",
+    "band": "Pussy Riot, New Age Doom",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/9/27455"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "band": "we.own.the.sky, Afterwise",
+    "venue": "AN Club, Athens",
     "city": "athens",
-    "link": "https://www.rocking.gr/agenda/2026/10/9/27441",
-    "source": "Rocking.gr Agenda"
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/9/27510"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "band": "Doro",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27369"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "band": "Iron Beast: Caught Somewhere in Greece - 40 Years of Somewhere in Time",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27435"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "band": "Madball, Desolated, Combust, Expectations",
+    "venue": "Arch Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27454"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "band": "Messiah, Piranha, The Crucifier",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
+      }
+    ]
   },
   {
     "date": "2026-10-11",
@@ -257,6 +488,149 @@
     ]
   },
   {
+    "date": "2026-10-11",
+    "band": "Suffocation, Ingested, Undeath, Eternal",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/11/27416"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "band": "Ozric Tentacles",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/16/27526"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "band": "Pestilence",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/16/27278"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "band": "13 χρόνια Εξαρχειώτης: Δημήτρης Μητσοτάκης, The Big Nose Attack, Εγώ κ.α.",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/17/27447"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "band": "Telenova",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/17/27468"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "band": "The Charlatans",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/17/27410"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "band": "13 χρόνια Εξαρχειώτης: The Black Capes, Black Stone Machine, Desert near the End κ.α.",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/18/27448"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "band": "Telenova",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/18/27469"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "band": "Hexvessel",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/21/27499"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "band": "Hexvessel",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/23/27500"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "band": "Naxatras",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/24/27418"
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "band": "Naxatras with special guests: Loud Silence",
     "venue": "FLOYD, Athens",
@@ -270,15 +644,123 @@
     ]
   },
   {
+    "date": "2026-10-24",
+    "band": "Nightfall",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/nightfall/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "band": "Nightfall, Shattered Hope, Daylight Misery",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/24/27438"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "band": "Ντίνος Σαδίκης, Γιαν Βαν & Φώτης Σιώτας",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/24/27485"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "band": "Phrenelith, Rapture, Casket Dweller",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/29/27518"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
-    "band": "Coroner +Depressive Age +Cryptic Shift",
+    "band": "Coroner, Depressive Age, Cryptic Shift",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
-    "source": "Gagarin 205 Announcements",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/30/27431"
+      },
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/coroner-depressive-age-cryptic-shift/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "band": "Fifth Angel",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/30/27393"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "band": "Goat",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/30/27342"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "band": "Buzzcocks",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/31/27240"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "band": "Goat",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/31/27342"
       }
     ]
   },
@@ -296,6 +778,45 @@
     ]
   },
   {
+    "date": "2026-11-01",
+    "band": "Fifth Angel",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/1/27395"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "band": "Holy Fawn, Allochiria",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/1/27417"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "band": "Mareux",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/mareux/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "band": "DELINES FEST",
     "venue": "Gagarin 205, Athens",
@@ -305,6 +826,191 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/delines-fest/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "band": "Delines Fest: Τάκι Τσαν & DJ ALX, Χατ Τρικ κ.α.",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/7/27437"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "band": "Sleaford Mods",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/7/27305"
+      },
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/sleaford-mods/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "band": "The Veils",
+    "venue": "Arch Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/7/27423"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "band": "Uriah Heep",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/7/27307"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "band": "Uriah Heep",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/8/27306"
+      },
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/uriah-heep/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "band": "Riot V, Angelo Perlepes' Mystery",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/10/27295"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "band": "Kwoon",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/11/27401"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "band": "Paradise Lost",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/11/27261"
+      },
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/paradise-lost/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "band": "Sólstafir",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/13/27496"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "band": "Warning",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/13/27391"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "band": "Mother of Millions, Universe217, Deep Dive",
+    "venue": "Arch Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/14/27457"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "band": "Sólstafir",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/14/27497"
+      },
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/solstafir-2/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "band": "EZHEL",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/ezhel/"
       }
     ]
   },
@@ -322,15 +1028,88 @@
     ]
   },
   {
+    "date": "2026-11-22",
+    "band": "Prong",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/22/27421"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
-    "band": "KREATOR & OVERKILL",
+    "band": "Kreator, Overkill",
     "venue": "FLOYD, Athens",
     "city": "athens",
-    "source": "Floyd",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/23/27413"
+      },
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/kreator-overkill/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "band": "Carpenter Brut",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/26/27430"
+      },
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/carpenter-brut/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "band": "Napalm Death, Master, Brat, Goatburner",
+    "venue": "We, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/26/27339"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "band": "Belle & Sebastian",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/27/27397"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "band": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
       }
     ]
   },
@@ -348,6 +1127,248 @@
     ]
   },
   {
+    "date": "2026-11-27",
+    "band": "Napalm Death, Master, Brat, Goatburner",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/27/27340"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "band": "Praying Mantis",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/27/27384"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "band": "InnerWish, Wardrum",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/28/27439"
+      },
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/innerwish/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "band": "Praying Mantis Αγρίνιο",
+    "venue": "Metal Union Club, Other city, Other city, Other city",
+    "city": "other",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/28/27385"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "band": "Yellow Eyes, Ultha, Sun Worship",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/28/27461"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-29",
+    "band": "Arab Strap",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/29/27443"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-29",
+    "band": "Yellow Eyes, Ultha, Sun Worship",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/29/27461"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-30",
+    "band": "Flotsam And Jetsam, Whiplash",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/30/27379"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-03",
+    "band": "The Ocean, Psychonaut, The Devil's Trade",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/3/27392"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-05",
+    "band": "Mother of Millions, Universe217, Altar of the Stag",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/5/27458"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-06",
+    "band": "Nazareth",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/6/27265"
+      },
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/nazareth/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-06",
+    "band": "SPK",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-07",
+    "band": "Kovacs",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/7/27387"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-11",
+    "band": "Warhammer, Hope Behind the Hills, Noxulifer",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-18",
+    "band": "Old Man’s Child, Yoth Iria, Decipher",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/18/27396"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-19",
+    "band": "Chelsea Wolfe",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/chelsea-wolfe/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-19",
+    "band": "Chelsea Wolfe, A.A. Williams",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/19/27406"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-19",
+    "band": "God Is An Astronaut",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/19/27464"
+      }
+    ]
+  },
+  {
     "date": "2026-12-19",
     "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
     "venue": "Gagarin 205, Athens",
@@ -357,6 +1378,71 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
+      }
+    ]
+  },
+  {
+    "date": "2027-01-09",
+    "band": "Clan of Xymox",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/1/9/27459"
+      }
+    ]
+  },
+  {
+    "date": "2027-01-17",
+    "band": "Acid Death, Null’O’Zero, Karma Violens, Gunsmith",
+    "venue": "Κύτταρο, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/1/17/27432"
+      }
+    ]
+  },
+  {
+    "date": "2027-01-18",
+    "band": "The Exploited",
+    "venue": "Arch Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/1/18/27516"
+      }
+    ]
+  },
+  {
+    "date": "2027-01-22",
+    "band": "The Exploited, Ομίχλη, Antinorm",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/1/22/27517"
+      }
+    ]
+  },
+  {
+    "date": "2027-02-11",
+    "band": "Black Veil Brides",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/2/11/27409"
       }
     ]
   },
@@ -374,12 +1460,68 @@
     ]
   },
   {
+    "date": "2027-02-12",
+    "band": "Reinkaos (Dissection Tribute)",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/2/12/27490"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
+    "band": "The Crazy World Of Arthur Brown",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/20/27523"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
+    "band": "U.K. Subs",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/20/27263"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-21",
+    "band": "The Crazy World Of Arthur Brown",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/21/27524"
+      }
+    ]
+  },
+  {
     "date": "2027-03-24",
-    "band": "SOEN",
+    "band": "Soen",
     "venue": "FLOYD, Athens",
     "city": "athens",
-    "source": "Floyd",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/24/27375"
+      },
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/soen/"
@@ -387,12 +1529,29 @@
     ]
   },
   {
+    "date": "2027-04-10",
+    "band": "Oh Hiroshima",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/4/10/27383"
+      }
+    ]
+  },
+  {
     "date": "2027-05-24",
-    "band": "NEVEMORE",
+    "band": "Nevermore",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
-    "source": "Gagarin 205 Announcements",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/5/24/27525"
+      },
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/nevemore/"
