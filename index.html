@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Metal Greece — Heavy Metal Shows Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#120f0d;
+    --bg-2:#181310;
+    --surface:#1e1712;
+    --surface-hover:#251c15;
+    --text:#f2ece1;
+    --muted:#9c8f7c;
+    --muted-2:#6d6153;
+    --rust:#9c3527;
+    --rust-bright:#d15a3b;
+    --bronze:#c49a56;
+    --bronze-dim:#8a6f3f;
+    --border:#3a2f24;
+    --border-soft:#2a2219;
+    box-sizing: border-box;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-padding-top: env(safe-area-inset-top, 0px);}
+  body{
+    margin:0;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -10%, rgba(196,154,86,.07), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 10%, rgba(156,53,39,.08), transparent 55%),
+      var(--bg);
+    color:var(--text);
+    font-family:'IBM Plex Sans', sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+  }
+  a{color:inherit;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 28px;}
+
+  /* grain overlay */
+  .grain{
+    position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Greek key divider, two-tone */
+  .meander{
+    width:100%;
+    height:18px;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='18' viewBox='0 0 60 18'%3E%3Cpath d='M0 18V3h7.5V10h7.5V3h7.5V10h7.5V3h7.5V10h7.5V3h7.5V10h7.5V3h7.5V10h7.5V3' fill='none' stroke='%23c49a56' stroke-width='2.2'/%3E%3C/svg%3E");
+    background-repeat:repeat-x;
+    background-size:60px 18px;
+    opacity:.4;
+  }
+  .meander.faint{opacity:.22;}
+
+  header{position:relative;z-index:2;padding:30px 0 0;}
+  .wordmark{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    padding-bottom:24px;
+  }
+  .wordmark .mark{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    font-size:23px;
+    letter-spacing:.05em;
+    color:var(--text);
+  }
+  .wordmark .mark span{color:var(--rust-bright);}
+  .wordmark .tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--muted-2);
+  }
+
+  main{position:relative;z-index:2;}
+
+  .hero{padding:44px 0 32px;animation:rise .6s ease-out both;}
+  @keyframes rise{
+    from{opacity:0;transform:translateY(10px);}
+    to{opacity:1;transform:translateY(0);}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .hero{animation:none;}
+  }
+  .hero h1{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:900;
+    font-size:clamp(42px, 8.5vw, 84px);
+    line-height:.92;
+    margin:0 0 20px;
+    letter-spacing:.005em;
+    max-width:12ch;
+    background:linear-gradient(180deg, var(--text) 55%, var(--bronze) 130%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+  .hero p.lede{
+    font-size:16.5px;
+    color:var(--muted);
+    max-width:52ch;
+    margin:0;
+  }
+
+  .next-show{
+    margin-top:32px;
+    position:relative;
+    border:1px solid var(--border);
+    background:linear-gradient(160deg, var(--surface), var(--bg-2));
+    padding:22px 24px;
+    display:none;
+  }
+  .next-show.is-ready{display:block;}
+  .next-show::before, .next-show::after{
+    content:"";
+    position:absolute;
+    width:10px;height:10px;
+    border:1.5px solid var(--bronze);
+  }
+  .next-show::before{top:-1px;left:-1px;border-right:none;border-bottom:none;}
+  .next-show::after{bottom:-1px;right:-1px;border-left:none;border-top:none;}
+  .next-show .row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  .next-show .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px;
+    letter-spacing:.08em;
+    color:var(--bronze);
+    margin-bottom:10px;
+  }
+  .next-show .band{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    font-size:28px;
+    margin-bottom:5px;
+    line-height:1.05;
+  }
+  .next-show .meta{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .next-show .countdown{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--muted-2);
+    text-align:right;
+    white-space:nowrap;
+  }
+  .next-show .countdown b{
+    display:block;
+    font-family:'Big Shoulders Display', sans-serif;
+    font-size:34px;
+    font-weight:700;
+    color:var(--rust-bright);
+    line-height:1;
+  }
+
+  .controls{
+    padding:38px 0 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    border-bottom:1px solid var(--border-soft);
+    margin-bottom:4px;
+  }
+  .filter-btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    background:transparent;
+    border:1px solid var(--border);
+    color:var(--muted);
+    padding:8px 14px;
+    cursor:pointer;
+    transition:border-color .15s ease, color .15s ease, background .15s ease;
+  }
+  .filter-btn:hover{border-color:var(--bronze-dim);color:var(--text);}
+  .filter-btn.active{
+    background:var(--rust);
+    border-color:var(--rust);
+    color:#f7f0e6;
+  }
+  .search-box{
+    margin-left:auto;
+    flex:1 1 200px;
+    max-width:240px;
+    position:relative;
+  }
+  .search-box input{
+    width:100%;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    color:var(--text);
+    padding:9px 12px;
+    transition:border-color .15s ease;
+  }
+  .search-box input::placeholder{color:var(--muted-2);}
+  .search-box input:focus{outline:none;border-color:var(--bronze);}
+
+  .month-heading{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    font-size:27px;
+    color:var(--bronze);
+    margin:38px 0 6px;
+    letter-spacing:.02em;
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+  }
+  .month-heading::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:var(--border-soft);
+    transform:translateY(-6px);
+  }
+  .month-heading:first-of-type{margin-top:26px;}
+
+  .show-list{list-style:none;margin:0;padding:0;}
+  .show{
+    display:grid;
+    grid-template-columns:68px 1fr;
+    gap:18px;
+    padding:17px 14px 17px 0;
+    border-bottom:1px solid var(--border-soft);
+    align-items:start;
+    position:relative;
+    transition:background .15s ease;
+  }
+  .show::before{
+    content:"";
+    position:absolute;
+    left:-14px;top:0;bottom:0;
+    width:2px;
+    background:transparent;
+    transition:background .15s ease;
+  }
+  .show:hover{background:var(--surface-hover);}
+  .show:hover::before{background:var(--rust-bright);}
+  .show .date{
+    font-family:'IBM Plex Mono', monospace;
+    text-align:left;
+    padding-top:2px;
+  }
+  .show .date .day{
+    display:block;
+    font-size:25px;
+    font-weight:600;
+    color:var(--text);
+    line-height:1;
+  }
+  .show .date .dow{
+    display:block;
+    font-size:11px;
+    color:var(--muted-2);
+    margin-top:5px;
+    text-transform:uppercase;
+    letter-spacing:.07em;
+  }
+  .show .info .band{
+    font-size:17.5px;
+    font-weight:600;
+    margin:0 0 5px;
+    letter-spacing:.005em;
+  }
+  .show .info .venue{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .show .info .venue .city-tag{
+    color:var(--bronze);
+  }
+  .show .info .link{
+    display:inline-block;
+    margin-top:8px;
+    font-size:12.5px;
+    text-decoration:underline;
+    text-decoration-color:var(--muted-2);
+    text-underline-offset:2px;
+    color:var(--muted);
+    transition:color .15s ease, text-decoration-color .15s ease;
+  }
+  .show .info .link:hover{color:var(--rust-bright);text-decoration-color:var(--rust-bright);}
+  .show[hidden]{display:none;}
+
+  .empty-state{
+    padding:44px 0;
+    color:var(--muted-2);
+    font-family:'IBM Plex Mono', monospace;
+    font-size:14px;
+    display:none;
+  }
+  .empty-state.show{display:block;}
+
+  footer{
+    position:relative;z-index:2;
+    margin-top:54px;
+    padding:28px 0 48px;
+  }
+  footer p{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--muted-2);
+    max-width:58ch;
+    margin:0 0 10px;
+    line-height:1.7;
+  }
+  footer a{text-decoration:underline;text-underline-offset:2px;}
+  footer a:hover{color:var(--rust-bright);}
+
+  @media (max-width:480px){
+    .wrap{padding:0 20px;}
+    .show{grid-template-columns:54px 1fr;}
+    .next-show .row{flex-direction:column;align-items:flex-start;}
+    .next-show .countdown{text-align:left;}
+  }
+</style>
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="wrap">
+  <div class="wordmark">
+    <div class="mark">METAL <span>GR</span></div>
+    <div class="tag">a running list, not a firehose</div>
+  </div>
+</header>
+
+<div class="meander"></div>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Heavy metal, tracked across Greece.</h1>
+    <p class="lede">Every confirmed club show, festival slot, and stadium date found for Athens, Thessaloniki, and beyond — refreshed automatically throughout the day. Check the official ticket page before you plan around anything here.</p>
+
+    <div class="next-show" id="nextShow">
+      <div class="eyebrow">NEXT UP</div>
+      <div class="row">
+        <div>
+          <div class="band" id="nextBand"></div>
+          <div class="meta" id="nextMeta"></div>
+        </div>
+        <div class="countdown" id="nextCountdown"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="controls">
+    <button class="filter-btn active" data-filter="all">All cities</button>
+    <button class="filter-btn" data-filter="athens">Athens</button>
+    <button class="filter-btn" data-filter="thessaloniki">Thessaloniki</button>
+    <button class="filter-btn" data-filter="other">Other cities</button>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search a band..." aria-label="Search by band name">
+    </div>
+  </div>
+
+  <div id="listRoot"></div>
+  <div class="empty-state" id="emptyState">Nothing matches that search. Try a different band name.</div>
+
+</main>
+
+<footer class="wrap">
+  <div class="meander faint" style="margin-bottom:22px;"></div>
+  <p>Listings are refreshed automatically from public event pages and venue listings for Athens, Thessaloniki, and other Greek cities. Dates, lineups, and venues can change — always confirm on the official ticket seller before buying.</p>
+  <p>Tracked venues, checked by name every refresh: Gagarin 205, OAKA Olympic Stadium, Floyd, Fuzz Club, AN Club, Temple, and Architektoniki.</p>
+  <p>Missing a show or found a wrong date? Tell me and I'll update the list.</p>
+</footer>
+
+<script>
+  // date: ISO yyyy-mm-dd. city: athens | thessaloniki | other. link: optional URL.
+  const fallbackShows = [
+    { date:"2026-09-22", band:"Blackbriar", venue:"Eightball Club, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-09-26", band:"The Gathering + Anneke van Giersbergen", venue:"Lycabettus Theatre, Athens", city:"athens", link:"https://www.bandsintown.com/e/107423188-thegathering-at-lycabettus-theatre" },
+    { date:"2026-09-26", band:"Slomosa", venue:"Eightball Club, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-10-07", band:"The True Mayhem", venue:"Gagarin 205, Athens", city:"athens", link:"https://www.bandsintown.com/e/108653409-the-true-mayhem-at-gagarin-205" },
+    { date:"2026-10-09", band:"Doro", venue:"Fuzz Club, Athens", city:"athens", link:"https://www.bandsintown.com/e/107464080-doro-at-fuzz-club" },
+    { date:"2026-10-10", band:"Doro", venue:"Principal Club Theater, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-10-11", band:"Suffocation", venue:"Gagarin 205, Athens", city:"athens", link:"https://www.bandsintown.com/e/108898407-suffocation-at-gagarin-205" },
+    { date:"2026-10-16", band:"Shores Of Null", venue:"Temple, Athens", city:"athens", link:"https://www.bandsintown.com/e/108807901-shores-of-null-at-temple" },
+    { date:"2026-10-16", band:"Pestilence", venue:"Eightball Club, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-10-17", band:"Swallow the Sun", venue:"Architektoniki Club, Athens", city:"athens", link:"https://www.bandsintown.com/e/107242348-swallow-the-sun-at-architektoniki-club-live-stage" },
+    { date:"2026-10-21", band:"Wolves in the Throne Room", venue:"Kyttaro, Athens", city:"athens", link:"https://www.bandsintown.com/e/108314035-wolves-in-the-throne-room-at-kyttaro" },
+    { date:"2026-10-30", band:"Coroner", venue:"Gagarin 205, Athens", city:"athens", link:"https://www.bandsintown.com/e/108640889-coroner-at-gagarin-205" },
+    { date:"2026-10-30", band:"Fifth Angel", venue:"Eightball Club, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-11-07", band:"Uriah Heep", venue:"Principal Club Theater, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-11-10", band:"Riot V", venue:"Eightball Club, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-11-11", band:"Paradise Lost", venue:"Floyd, Athens", city:"athens", link:"https://www.bandsintown.com/e/108026542-paradise-lost-at-floyd-live-music-venue" },
+    { date:"2026-11-20", band:"Aephanemer + Aetherian", venue:"ARCH Club, Athens", city:"athens", link:"https://www.bandsintown.com/e/108190404-aephanemer-at-arch-club-live-stage" },
+    { date:"2026-11-21", band:"Aephanemer", venue:"Soul, Thessaloniki", city:"thessaloniki" },
+    { date:"2026-11-22", band:"Prong", venue:"Gazarte, Athens", city:"athens", link:"https://www.bandsintown.com/e/108625054-prong-at-gazarte" },
+    { date:"2026-11-23", band:"Kreator", venue:"Floyd, Athens", city:"athens", link:"https://www.bandsintown.com/e/108602456-kreator-at-floyd-live-music-venue" },
+    { date:"2026-11-26", band:"Napalm Death", venue:"WE Cultural & Sports Complex, Thessaloniki", city:"thessaloniki" },
+    { date:"2027-01-10", band:"Onslaught", venue:"Kyttaro, Athens", city:"athens", link:"https://www.bandsintown.com/e/108851090-onslaught-at-kyttaro" },
+    { date:"2027-01-17", band:"Acid Death — 37 Acid Years", venue:"Kyttaro, Athens", city:"athens", link:"https://www.bandsintown.com/e/108618780-acid-death-at-kyttaro" },
+    { date:"2027-02-11", band:"Black Veil Brides", venue:"Floyd, Athens", city:"athens", link:"https://www.bandsintown.com/e/108614975-black-veil-brides-at-floyd-live-music-venue" },
+    { date:"2027-05-24", band:"Nevermore — Liminal Spaces Tour", venue:"Gagarin 205, Athens", city:"athens", link:"https://rockpages.gr/oi-nevermore-epistrefoun-stin-ellada-deltio-typou/" }
+  ].sort((a,b) => a.date.localeCompare(b.date));
+
+  let shows = fallbackShows;
+
+  const DOW = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
+  const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+  function parseLocal(dateStr){
+    const [y,m,d] = dateStr.split("-").map(Number);
+    return new Date(y, m-1, d);
+  }
+
+  const listRoot = document.getElementById("listRoot");
+  const emptyState = document.getElementById("emptyState");
+  let currentFilter = "all";
+  let currentSearch = "";
+
+  function render(){
+    listRoot.innerHTML = "";
+    let lastMonthKey = "";
+    let visibleCount = 0;
+
+    shows.forEach(s => {
+      const matchesFilter = currentFilter === "all" || s.city === currentFilter;
+      const matchesSearch = !currentSearch || s.band.toLowerCase().includes(currentSearch) || s.venue.toLowerCase().includes(currentSearch);
+      if(!matchesFilter || !matchesSearch) return;
+
+      const d = parseLocal(s.date);
+      const monthKey = d.getFullYear() + "-" + d.getMonth();
+      if(monthKey !== lastMonthKey){
+        const h = document.createElement("div");
+        h.className = "month-heading";
+        h.textContent = MONTHS[d.getMonth()] + " " + d.getFullYear();
+        listRoot.appendChild(h);
+        lastMonthKey = monthKey;
+      }
+
+      const row = document.createElement("div");
+      row.className = "show";
+      const cityLabel = s.city === "athens" ? "Athens" : s.city === "thessaloniki" ? "Thessaloniki" : "";
+      const venueHtml = cityLabel && s.venue.includes(cityLabel)
+        ? s.venue.replace(cityLabel, '<span class="city-tag">' + cityLabel + '</span>')
+        : s.venue;
+      row.innerHTML =
+        '<div class="date"><span class="day">' + String(d.getDate()).padStart(2,"0") + '</span><span class="dow">' + DOW[d.getDay()] + '</span></div>' +
+        '<div class="info">' +
+          '<p class="band">' + s.band + '</p>' +
+          '<p class="venue">' + venueHtml + '</p>' +
+          (s.link ? '<a class="link" href="' + s.link + '" target="_blank" rel="noopener">Event details</a>' : '') +
+        '</div>';
+      listRoot.appendChild(row);
+      visibleCount++;
+    });
+
+    emptyState.classList.toggle("show", visibleCount === 0);
+  }
+
+  function renderNextShow(){
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const upcoming = shows.find(s => parseLocal(s.date) >= today);
+    if(!upcoming) return;
+    const d = parseLocal(upcoming.date);
+    const daysAway = Math.round((d - today) / 86400000);
+    document.getElementById("nextBand").textContent = upcoming.band;
+    document.getElementById("nextMeta").textContent =
+      DOW[d.getDay()] + ", " + MONTHS[d.getMonth()] + " " + d.getDate() + " " + d.getFullYear() + " — " + upcoming.venue;
+    document.getElementById("nextCountdown").innerHTML =
+      "<b>" + (daysAway === 0 ? "TODAY" : daysAway) + "</b>" + (daysAway === 0 ? "" : (daysAway === 1 ? "day away" : "days away"));
+    document.getElementById("nextShow").classList.add("is-ready");
+  }
+
+  document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentFilter = btn.dataset.filter;
+      render();
+    });
+  });
+
+  document.getElementById("searchInput").addEventListener("input", (e) => {
+    currentSearch = e.target.value.trim().toLowerCase();
+    render();
+  });
+
+  async function init(){
+    try{
+      const response = await fetch("shows.json", {cache:"no-store"});
+      if(!response.ok) throw new Error("shows.json returned " + response.status);
+      const remoteShows = await response.json();
+      if(Array.isArray(remoteShows) && remoteShows.length){
+        shows = remoteShows.sort((a,b) => a.date.localeCompare(b.date));
+      }
+    }catch(error){
+      console.warn("Using the built-in show list:", error);
+    }
+    render();
+    renderNextShow();
+  }
+
+  init();
+</script>
+
+</body>
+</html>
