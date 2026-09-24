@@ -72,6 +72,23 @@
     ]
   },
   {
+    "date": "2026-09-26",
+    "band": "The Gathering",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/26/27021"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/9/26/27021"
+      }
+    ]
+  },
+  {
     "date": "2026-09-27",
     "band": "Joe Lynn Turner",
     "venue": "Gagarin 205, Athens",
@@ -240,7 +257,7 @@
   },
   {
     "date": "2026-10-08",
-    "band": "Mayhem",
+    "band": "Mayhem, Dead Congregation",
     "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
     "city": "thessaloniki",
     "source": "Rocking.gr Future Agenda",
@@ -360,12 +377,8 @@
     "band": "Messiah, Piranha, The Crucifier",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
