@@ -85,6 +85,14 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/27/27291"
+      },
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/joe-lynn-turner/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/joe-lynn-turner/"
       }
     ]
   },
@@ -168,6 +176,23 @@
   },
   {
     "date": "2026-10-03",
+    "band": "Seksendört LIVE in Athens",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/seksendort-live-in-athens/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/seksendort-live-in-athens/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
     "band": "The Prisoners: Somewhere In Time – 40 Years Anniversary, Obscurus Rex",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
@@ -202,6 +227,14 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/7/27462"
+      },
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/mayhem-unleashed/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/mayhem-unleashed/"
       }
     ]
   },
@@ -327,11 +360,32 @@
     "band": "Messiah, Piranha, The Crucifier",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "band": "SUFFOCATION",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/suffocation/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/suffocation/"
       }
     ]
   },
@@ -553,6 +607,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/30/27431"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/coroner-depressive-age-cryptic-shift/"
       }
     ]
   },
@@ -609,6 +667,19 @@
     ]
   },
   {
+    "date": "2026-10-31",
+    "band": "HALLOWEEN LIVE CHAOS",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/halloween-live-chaos/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "band": "Fifth Angel",
     "venue": "Gazarte, Athens",
@@ -644,6 +715,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/mareux/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "band": "DELINES FEST",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/delines-fest/"
       }
     ]
   },
@@ -833,6 +917,19 @@
     ]
   },
   {
+    "date": "2026-11-21",
+    "band": "KAARIJA",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/kaarija/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "band": "Prong",
     "venue": "Gazarte, Athens",
@@ -920,6 +1017,19 @@
   },
   {
     "date": "2026-11-27",
+    "band": "NAPALM DEATH",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/napalm-death/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
     "band": "Napalm Death, Master, Brat, Goatburner",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
@@ -941,6 +1051,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27384"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "band": "Eddie Dark",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/eddie-dark/"
       }
     ]
   },
@@ -1157,6 +1280,19 @@
     ]
   },
   {
+    "date": "2026-12-19",
+    "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
+      }
+    ]
+  },
+  {
     "date": "2027-01-09",
     "band": "Clan of Xymox",
     "venue": "Temple, Athens",
@@ -1326,6 +1462,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/5/24/27525"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/nevemore/"
       }
     ]
   },
