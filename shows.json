@@ -335,6 +335,19 @@
   },
   {
     "date": "2026-10-10",
+    "band": "Buzzcocks",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27240"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
     "band": "Doro",
     "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
     "city": "thessaloniki",
@@ -650,19 +663,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/30/27342"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-31",
-    "band": "Buzzcocks",
-    "venue": "Eightball, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/31/27240"
       }
     ]
   },
