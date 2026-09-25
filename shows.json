@@ -4,12 +4,8 @@
     "band": "Slomosa, Godsleep, Rainyard",
     "venue": "Arch Club, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/25/27506"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/25/27506"
@@ -21,12 +17,8 @@
     "band": "Tito & Tarantula",
     "venue": "Fuzz Club, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/25/27488"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/25/27488"
@@ -38,12 +30,8 @@
     "band": "Ty Segall",
     "venue": "FLOYD, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/25/27256"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/9/25/27256"
@@ -265,8 +253,12 @@
     "band": "Lera Lynn",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
