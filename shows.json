@@ -193,23 +193,6 @@
   },
   {
     "date": "2026-10-03",
-    "band": "Seksendört LIVE in Athens",
-    "venue": "Gagarin205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205",
-    "links": [
-      {
-        "source": "Gagarin 205",
-        "url": "https://gagarin205.gr/event/seksendort-live-in-athens/"
-      },
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/seksendort-live-in-athens/"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-03",
     "band": "The Prisoners: Somewhere In Time – 40 Years Anniversary, Obscurus Rex",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
@@ -390,12 +373,8 @@
     "band": "Messiah, Piranha, The Crucifier",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
@@ -1074,10 +1053,14 @@
   {
     "date": "2026-11-28",
     "band": "Eddie Dark",
-    "venue": "Venue TBA, Athens",
+    "venue": "FLOYD, Athens",
     "city": "athens",
-    "source": "Floyd",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/28/27527"
+      },
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/eddie-dark/"
