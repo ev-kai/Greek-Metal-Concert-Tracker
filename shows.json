@@ -1,48 +1,5 @@
 [
   {
-    "date": "2026-09-25",
-    "band": "Slomosa, Godsleep, Rainyard",
-    "venue": "Arch Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/25/27506"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "band": "Tito & Tarantula",
-    "venue": "Fuzz Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/25/27488"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "band": "Ty Segall",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/25/27256"
-      },
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/ty-segall/"
-      }
-    ]
-  },
-  {
     "date": "2026-09-26",
     "band": "The Gathering",
     "venue": "FLOYD, Athens",
@@ -253,15 +210,24 @@
     "band": "Lera Lynn",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "band": "PUSSY RIOT “Riot Days” w/ New Age Doom [RU]",
+    "venue": "Eightball Club, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Eightball Club",
+    "links": [
+      {
+        "source": "Eightball Club",
+        "url": "https://eightballclub.gr/event/pussy-riot-riot-days-w-new-age-doom-ru-09-10-2026-eightball-club/"
       }
     ]
   },
@@ -348,8 +314,12 @@
     "band": "Messiah, Piranha, The Crucifier",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
@@ -1454,6 +1424,19 @@
       {
         "source": "Fuzz Club",
         "url": "https://www.fuzzclub.gr/event/blackbriar/"
+      }
+    ]
+  },
+  {
+    "date": "2027-09-25",
+    "band": "Ty Segall",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/ty-segall/"
       }
     ]
   }
