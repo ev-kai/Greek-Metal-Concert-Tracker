@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-09-26",
-    "band": "The Gathering",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/9/26/27021"
-      }
-    ]
-  },
-  {
     "date": "2026-09-27",
     "band": "Joe Lynn Turner",
     "venue": "Gagarin 205, Athens",
@@ -206,12 +193,8 @@
     "band": "Lera Lynn",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/9/27441"
