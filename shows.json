@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-09-27",
-    "band": "JOE LYNN TURNER",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/joe-lynn-turner/"
-      }
-    ]
-  },
-  {
     "date": "2026-10-02",
     "band": "Frenzee, The Klammers",
     "venue": "AN Club, Athens",
@@ -285,8 +272,12 @@
     "band": "Messiah, Piranha, The Crucifier",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
@@ -1404,6 +1395,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/ty-segall/"
+      }
+    ]
+  },
+  {
+    "date": "2027-09-27",
+    "band": "JOE LYNN TURNER",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/joe-lynn-turner/"
       }
     ]
   }
