@@ -66,6 +66,19 @@
   },
   {
     "date": "2026-10-03",
+    "band": "OBSCURUS REX",
+    "venue": "Venue TBA, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Metalwar.gr",
+    "links": [
+      {
+        "source": "Metalwar.gr",
+        "url": "https://www.metalwar.gr/obscurus-rex-sto-eightball-sti-thessaloniki-stis-3-oktovriou/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
     "band": "The Prisoners: Somewhere In Time – 40 Years Anniversary, Obscurus Rex",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
@@ -902,8 +915,12 @@
     "band": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
