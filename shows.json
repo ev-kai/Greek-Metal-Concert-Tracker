@@ -1340,6 +1340,19 @@
     ]
   },
   {
+    "date": "2026-12-24",
+    "band": "1000mods",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/1000mods-2026-12/"
+      }
+    ]
+  },
+  {
     "date": "2027-01-09",
     "band": "Clan of Xymox",
     "venue": "Temple, Athens",
