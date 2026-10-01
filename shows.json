@@ -1172,6 +1172,19 @@
   },
   {
     "date": "2026-11-29",
+    "band": "NILE",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/nile-2/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-29",
     "band": "Yellow Eyes, Ultha, Sun Worship",
     "venue": "AN Club, Athens",
     "city": "athens",
@@ -1232,6 +1245,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27265"
+      },
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/nazareth/"
       }
     ]
   },
@@ -1552,19 +1569,6 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/nevemore/"
-      }
-    ]
-  },
-  {
-    "date": "2027-09-23",
-    "band": "BLACKBRIAR",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Fuzz Club",
-    "links": [
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/blackbriar/"
       }
     ]
   }
