@@ -1484,6 +1484,19 @@
   },
   {
     "date": "2027-03-20",
+    "band": "IGORRR",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/igorrr/"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
     "band": "The Crazy World Of Arthur Brown",
     "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
     "city": "thessaloniki",
