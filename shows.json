@@ -510,40 +510,6 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "band": "Hexvessel",
-    "venue": "Eightball, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/21/27499"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/21/27499"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "band": "Hexvessel",
-    "venue": "Temple, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/23/27500"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/23/27500"
-      }
-    ]
-  },
-  {
     "date": "2026-10-24",
     "band": "Naxatras",
     "venue": "FLOYD, Athens",
@@ -1359,10 +1325,14 @@
   {
     "date": "2026-12-24",
     "band": "1000mods",
-    "venue": "Venue TBA, Athens",
+    "venue": "FLOYD, Athens",
     "city": "athens",
-    "source": "Floyd",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/24/27534"
+      },
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/1000mods-2026-12/"
@@ -1457,6 +1427,32 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/2/12/27490"
+      }
+    ]
+  },
+  {
+    "date": "2027-02-19",
+    "band": "Hexvessel",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/2/19/27500"
+      }
+    ]
+  },
+  {
+    "date": "2027-02-21",
+    "band": "Hexvessel, The Butter Dreams",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/2/21/27499"
       }
     ]
   },
