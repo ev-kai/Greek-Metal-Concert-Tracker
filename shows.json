@@ -408,6 +408,23 @@
     ]
   },
   {
+    "date": "2026-10-21",
+    "band": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Stiletto Strut, Idra Kayne Hard Rock",
+    "venue": "Ίλιον Plus, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/21/27543"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/21/27543"
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "band": "Naxatras",
     "venue": "FLOYD, Athens",
@@ -751,6 +768,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/paradise-lost/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "band": "Dire Straits Legacy",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/13/27537"
       }
     ]
   },
@@ -1395,6 +1425,19 @@
   },
   {
     "date": "2027-03-20",
+    "band": "Igorrr, Secret Chiefs 3, Fange",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/20/27538"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
     "band": "The Crazy World Of Arthur Brown",
     "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
     "city": "thessaloniki",
@@ -1416,6 +1459,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/3/20/27263"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-21",
+    "band": "Igorrr, Secret Chiefs 3, Fange",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/21/27541"
       }
     ]
   },
