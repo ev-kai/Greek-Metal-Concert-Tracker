@@ -747,6 +747,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/13/27537"
+      },
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/dire-straits-legacy/"
       }
     ]
   },
@@ -910,8 +914,12 @@
     "band": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
@@ -1118,10 +1126,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27265"
-      },
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/nazareth/"
       }
     ]
   },
