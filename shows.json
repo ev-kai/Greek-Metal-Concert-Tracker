@@ -247,6 +247,23 @@
     ]
   },
   {
+    "date": "2026-10-16",
+    "band": "Γιώργος Καρράς, Kidney Black",
+    "venue": "ΕΞΑ Sold Out, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/16/27552"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/10/16/27552"
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "band": "13 χρόνια Εξαρχειώτης: Δημήτρης Μητσοτάκης, The Big Nose Attack, Εγώ κ.α.",
     "venue": "AN Club, Athens",
@@ -795,6 +812,19 @@
     ]
   },
   {
+    "date": "2026-11-21",
+    "band": "Γιώργος Καρράς Γρεβενά",
+    "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city",
+    "city": "other",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/21/27556"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "band": "Prong",
     "venue": "Gazarte, Athens",
@@ -872,12 +902,8 @@
     "band": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
