@@ -1,70 +1,5 @@
 [
   {
-    "date": "2026-10-10",
-    "band": "Buzzcocks",
-    "venue": "Eightball, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27240"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-10",
-    "band": "Doro",
-    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27369"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-10",
-    "band": "Iron Beast: Caught Somewhere in Greece - 40 Years of Somewhere in Time",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27435"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-10",
-    "band": "Madball, Desolated, Combust, Expectations",
-    "venue": "Arch Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27454"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-10",
-    "band": "Messiah, Piranha, The Crucifier",
-    "venue": "Temple, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/10/27494"
-      }
-    ]
-  },
-  {
     "date": "2026-10-11",
     "band": "SUFFOCATION",
     "venue": "Gagarin205, Athens",
@@ -1017,12 +952,8 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
