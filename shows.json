@@ -260,6 +260,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/10/30/27431"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/coroner-depressive-age-cryptic-shift/"
       }
     ]
   },
@@ -315,6 +319,19 @@
     ]
   },
   {
+    "date": "2026-10-31",
+    "band": "HALLOWEEN LIVE CHAOS",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/halloween-live-chaos/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "band": "Fifth Angel",
     "venue": "Gazarte, Athens",
@@ -350,6 +367,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/mareux/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "band": "DELINES FEST",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/delines-fest/"
       }
     ]
   },
@@ -557,6 +587,19 @@
   },
   {
     "date": "2026-11-21",
+    "band": "KAARIJA",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/kaarija/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
     "band": "Γιώργος Καρράς Γρεβενά",
     "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city",
     "city": "other",
@@ -655,6 +698,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "band": "NAPALM DEATH",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/napalm-death/"
       }
     ]
   },
@@ -953,6 +1009,19 @@
     ]
   },
   {
+    "date": "2026-12-19",
+    "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
+      }
+    ]
+  },
+  {
     "date": "2026-12-24",
     "band": "1000mods",
     "venue": "FLOYD, Athens",
@@ -1100,6 +1169,32 @@
     ]
   },
   {
+    "date": "2027-03-19",
+    "band": "TARJA",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/tarja/"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
+    "band": "IGORRR",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/igorrr/"
+      }
+    ]
+  },
+  {
     "date": "2027-03-20",
     "band": "Igorrr, Secret Chiefs 3, Fange",
     "venue": "Gagarin 205, Athens",
@@ -1204,6 +1299,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/5/24/27525"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/nevemore/"
       }
     ]
   },
