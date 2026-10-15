@@ -1157,6 +1157,19 @@
   },
   {
     "date": "2027-03-19",
+    "band": "Dylan Moran",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/dylan-moran/"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-19",
     "band": "TARJA",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
