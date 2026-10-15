@@ -876,6 +876,19 @@
   },
   {
     "date": "2026-12-05",
+    "band": "FUNDRACAR",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/fundracar/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-05",
     "band": "Mother of Millions, Universe217, Altar of the Stag",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
@@ -905,8 +918,12 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
@@ -931,12 +948,8 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -1303,19 +1316,6 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/nevemore/"
-      }
-    ]
-  },
-  {
-    "date": "2027-10-09",
-    "band": "Doro Pesch",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Fuzz Club",
-    "links": [
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/doro-pesch/"
       }
     ]
   }
