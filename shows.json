@@ -1132,11 +1132,15 @@
   },
   {
     "date": "2027-03-19",
-    "band": "TARJA",
+    "band": "Tarja",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
-    "source": "Gagarin 205 Announcements",
+    "source": "Rocking.gr Future Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/19/27559"
+      },
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/tarja/"
@@ -1166,6 +1170,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/3/20/27538"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
+    "band": "Tarja",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/20/27560"
       }
     ]
   },
