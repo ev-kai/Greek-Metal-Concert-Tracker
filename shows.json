@@ -606,23 +606,6 @@
   },
   {
     "date": "2026-11-28",
-    "band": "InnerWish, Wardrum",
-    "venue": "Fuzz Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/28/27439"
-      },
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/innerwish/"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-28",
     "band": "Praying Mantis Αγρίνιο",
     "venue": "Metal Union Club, Other city, Other city, Other city",
     "city": "other",
@@ -1180,6 +1163,23 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/10/27383"
+      }
+    ]
+  },
+  {
+    "date": "2027-04-24",
+    "band": "InnerWish, Wardrum",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/4/24/27439"
+      },
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/innerwish/"
       }
     ]
   },
