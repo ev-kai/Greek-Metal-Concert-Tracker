@@ -1,83 +1,5 @@
 [
   {
-    "date": "2026-10-24",
-    "band": "Ataraxia, Glimmer Void, Glitter Grotesque",
-    "venue": "Temple, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/24/27561"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-24",
-    "band": "Naxatras",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/24/27418"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-24",
-    "band": "Naxatras with special guests: Loud Silence",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Floyd",
-    "links": [
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/naxatras/"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-24",
-    "band": "Nightfall",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Fuzz Club",
-    "links": [
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/nightfall/"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-24",
-    "band": "Nightfall, Shattered Hope, Daylight Misery",
-    "venue": "Fuzz Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/24/27438"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-24",
-    "band": "Ντίνος Σαδίκης, Γιαν Βαν & Φώτης Σιώτας",
-    "venue": "AN Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/24/27485"
-      }
-    ]
-  },
-  {
     "date": "2026-10-29",
     "band": "Phrenelith, Rapture, Casket Dweller",
     "venue": "AN Club, Athens",
@@ -1190,6 +1112,32 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-10-24",
+    "band": "Naxatras with special guests: Loud Silence",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/naxatras/"
+      }
+    ]
+  },
+  {
+    "date": "2027-10-24",
+    "band": "Nightfall",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/nightfall/"
       }
     ]
   }
