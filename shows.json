@@ -684,12 +684,8 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
@@ -711,14 +707,44 @@
   },
   {
     "date": "2026-12-11",
-    "band": "Warhammer, Hope Behind the Hills, Noxulifer",
-    "venue": "Temple, Athens",
+    "band": "Discharge, Panx Romana",
+    "venue": "Fuzz Club, Athens",
     "city": "athens",
     "source": "Rocking.gr Future Agenda",
     "links": [
       {
         "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27568"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-11",
+    "band": "Warhammer, Hope Behind the Hills, Noxulifer",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-13",
+    "band": "Discharge, Aias Marinos Punk Trio Ιωάννινα",
+    "venue": "Stage Ioannina, Other city, Other city, Other city",
+    "city": "other",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/13/27570"
       }
     ]
   },
