@@ -201,8 +201,12 @@
     "band": "Vígljós",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/7/27567"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/7/27567"
@@ -564,6 +568,19 @@
   },
   {
     "date": "2026-11-29",
+    "band": "EAGLE EYE CHERRY live in Greece!",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/eagle-eye-cherry-live-in-greece/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-29",
     "band": "NILE",
     "venue": "Fuzz Club, Athens",
     "city": "athens",
@@ -676,6 +693,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27265"
+      },
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/nazareth/"
       }
     ]
   },
@@ -702,6 +723,32 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/7/27387"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-11",
+    "band": "Discharge",
+    "venue": "Venue TBA, Other city, Other city, Other city",
+    "city": "other",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/discharge/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-11",
+    "band": "Discharge",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/discharge/"
       }
     ]
   },
@@ -1130,10 +1177,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/24/27439"
-      },
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/innerwish/"
       }
     ]
   },
@@ -1177,19 +1220,6 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/rory-gallagher-band-of-friends-4/"
-      }
-    ]
-  },
-  {
-    "date": "2027-10-24",
-    "band": "Nightfall",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Fuzz Club",
-    "links": [
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/nightfall/"
       }
     ]
   }
