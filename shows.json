@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-10-29",
-    "band": "Phrenelith, Rapture, Casket Dweller",
-    "venue": "AN Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/29/27518"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/10/29/27518"
-      }
-    ]
-  },
-  {
     "date": "2026-10-30",
     "band": "Coroner, Depressive Age, Cryptic Shift",
     "venue": "Gagarin 205, Athens",
@@ -201,12 +184,8 @@
     "band": "Vígljós",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27567"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/7/27567"
@@ -705,8 +684,12 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
