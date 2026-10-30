@@ -442,8 +442,12 @@
     "band": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
@@ -966,6 +970,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/2/21/27499"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-06",
+    "band": "Planet of Zeus",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/planet-of-zeus-2027/"
       }
     ]
   },
