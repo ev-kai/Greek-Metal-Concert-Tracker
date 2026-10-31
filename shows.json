@@ -129,12 +129,8 @@
     "band": "Vígljós",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27567"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/7/27567"
@@ -633,8 +629,12 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
@@ -1161,19 +1161,6 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/rory-gallagher-band-of-friends-4/"
-      }
-    ]
-  },
-  {
-    "date": "2027-10-30",
-    "band": "Coroner +Depressive Age +Cryptic Shift",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/coroner-depressive-age-cryptic-shift/"
       }
     ]
   }
