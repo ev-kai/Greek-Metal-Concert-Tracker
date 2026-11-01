@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-31",
-    "band": "HALLOWEEN LIVE CHAOS",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/halloween-live-chaos/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-01",
     "band": "Fifth Angel",
     "venue": "Gazarte, Athens",
@@ -801,8 +788,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
