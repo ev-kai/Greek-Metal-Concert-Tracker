@@ -31,6 +31,19 @@
   },
   {
     "date": "2026-11-07",
+    "band": "DELINES FEST",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/delines-fest/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
     "band": "Delines Fest: Τάκι Τσαν & DJ ALX, Χατ Τρικ κ.α.",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
@@ -302,6 +315,19 @@
   },
   {
     "date": "2026-11-21",
+    "band": "KAARIJA",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/kaarija/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
     "band": "Γιώργος Καρράς Γρεβενά",
     "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city, Other city",
     "city": "other",
@@ -424,6 +450,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "band": "NAPALM DEATH",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/napalm-death/"
       }
     ]
   },
@@ -823,6 +862,19 @@
     ]
   },
   {
+    "date": "2026-12-19",
+    "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
+      }
+    ]
+  },
+  {
     "date": "2026-12-24",
     "band": "1000mods",
     "venue": "FLOYD, Athens",
@@ -957,6 +1009,19 @@
     ]
   },
   {
+    "date": "2027-03-04",
+    "band": "UP THE HAMMERS XXI",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/up-the-hammers-xxi/"
+      }
+    ]
+  },
+  {
     "date": "2027-03-06",
     "band": "Planet of Zeus",
     "venue": "Venue TBA, Athens",
@@ -1005,6 +1070,23 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/3/19/27559"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/tarja/"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
+    "band": "IGORRR",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/igorrr/"
       }
     ]
   },
@@ -1152,6 +1234,10 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/5/24/27525"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/nevemore/"
       }
     ]
   },
@@ -1165,6 +1251,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-07-16",
+    "band": "Rory Gallagher – Band of Friends",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/rory-gallagher-band-of-friends-4/"
       }
     ]
   }
