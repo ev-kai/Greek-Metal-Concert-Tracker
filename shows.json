@@ -133,6 +133,23 @@
   },
   {
     "date": "2026-11-08",
+    "band": "Jam Pedals: Villagers of Ioannina City, Raining Pleasure, Υπόγεια Ρεύματα κ.α.",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/8/27578"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/8/27578"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-08",
     "band": "Uriah Heep",
     "venue": "FLOYD, Athens",
     "city": "athens",
@@ -753,12 +770,8 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
