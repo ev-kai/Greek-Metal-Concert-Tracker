@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-11-03",
-    "band": "Mareux",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Floyd",
-    "links": [
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/mareux/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-07",
     "band": "DELINES FEST",
     "venue": "Gagarin 205, Athens",
@@ -1298,6 +1285,19 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/rory-gallagher-band-of-friends-4/"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-03",
+    "band": "Mareux",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/mareux/"
       }
     ]
   }
