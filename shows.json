@@ -1,100 +1,5 @@
 [
   {
-    "date": "2026-11-07",
-    "band": "DELINES FEST",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/delines-fest/"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "band": "Delines Fest: Τάκι Τσαν & DJ ALX, Χατ Τρικ κ.α.",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27437"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "band": "Sleaford Mods",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27305"
-      },
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/sleaford-mods/"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "band": "The Veils",
-    "venue": "Arch Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27423"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "band": "Uriah Heep",
-    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27307"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "band": "Vígljós",
-    "venue": "Temple, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27567"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "band": "Κροταλίας, Junkheart, Nothing Thrives",
-    "venue": "AN Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/7/27576"
-      }
-    ]
-  },
-  {
     "date": "2026-11-08",
     "band": "Jam Pedals: Villagers of Ioannina City, Raining Pleasure, Υπόγεια Ρεύματα κ.α.",
     "venue": "Gazarte, Athens",
@@ -759,12 +664,8 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
@@ -1287,6 +1188,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-07",
+    "band": "Sleaford Mods",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/sleaford-mods/"
       }
     ]
   }
