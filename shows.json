@@ -695,8 +695,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -739,6 +743,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/18/27396"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-18",
+    "band": "PAGAN live at Fuzz Club",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/pagan-live-at-fuzz-club/"
       }
     ]
   },
@@ -860,6 +877,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/1/22/27517"
+      }
+    ]
+  },
+  {
+    "date": "2027-01-30",
+    "band": "δύο_μηδέν_δύο_μηδέν",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/dio-miden-dio-miden-floyd/"
       }
     ]
   },
@@ -1154,32 +1184,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
-      }
-    ]
-  },
-  {
-    "date": "2027-11-07",
-    "band": "Sleaford Mods",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Floyd",
-    "links": [
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/sleaford-mods/"
-      }
-    ]
-  },
-  {
-    "date": "2027-11-08",
-    "band": "Uriah Heep",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Floyd",
-    "links": [
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/uriah-heep/"
       }
     ]
   }
