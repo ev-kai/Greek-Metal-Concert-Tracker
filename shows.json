@@ -1,43 +1,5 @@
 [
   {
-    "date": "2026-11-08",
-    "band": "Jam Pedals: Villagers of Ioannina City, Raining Pleasure, Υπόγεια Ρεύματα κ.α.",
-    "venue": "Gazarte, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/8/27578"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/8/27578"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-08",
-    "band": "Uriah Heep",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/8/27306"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/8/27306"
-      },
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/uriah-heep/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-10",
     "band": "Riot V – 50th Anniversary Special Setlist w Angelo Perlepes Mystery",
     "venue": "Eightball Club, Thessaloniki",
@@ -374,6 +336,10 @@
       {
         "source": "Gagarin 205",
         "url": "https://gagarin205.gr/event/napalm-death/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/napalm-death/"
       }
     ]
   },
@@ -664,12 +630,8 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
@@ -1205,6 +1167,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/sleaford-mods/"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-08",
+    "band": "Uriah Heep",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/uriah-heep/"
       }
     ]
   }
