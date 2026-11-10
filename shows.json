@@ -120,7 +120,7 @@
   },
   {
     "date": "2026-11-13",
-    "band": "Warning",
+    "band": "Warning, The Temple",
     "venue": "AN Club, Athens",
     "city": "athens",
     "source": "Rocking.gr Agenda",
@@ -695,12 +695,8 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
