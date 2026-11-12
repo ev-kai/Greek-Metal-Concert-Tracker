@@ -106,19 +106,6 @@
     ]
   },
   {
-    "date": "2026-11-20",
-    "band": "EZHEL",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Fuzz Club",
-    "links": [
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/ezhel/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-21",
     "band": "Γιώργος Καρράς Γρεβενά",
     "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city, Other city",
@@ -627,8 +614,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -1051,6 +1042,19 @@
     ]
   },
   {
+    "date": "2027-04-02",
+    "band": "FLORENCE ROAD",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/florence-road/"
+      }
+    ]
+  },
+  {
     "date": "2027-04-10",
     "band": "Oh Hiroshima",
     "venue": "AN Club, Athens",
@@ -1112,19 +1116,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
-      }
-    ]
-  },
-  {
-    "date": "2027-11-11",
-    "band": "PARADISE LOST",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Floyd",
-    "links": [
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/paradise-lost/"
       }
     ]
   }
