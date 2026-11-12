@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-11-11",
-    "band": "Kwoon",
-    "venue": "AN Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/11/27401"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-11",
-    "band": "Paradise Lost",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/11/27261"
-      },
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/paradise-lost/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-13",
     "band": "Dire Straits Legacy",
     "venue": "FLOYD, Athens",
@@ -657,12 +627,8 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -1146,6 +1112,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-11",
+    "band": "PARADISE LOST",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/paradise-lost/"
       }
     ]
   }
