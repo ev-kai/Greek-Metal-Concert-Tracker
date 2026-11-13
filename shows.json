@@ -106,6 +106,19 @@
     ]
   },
   {
+    "date": "2026-11-20",
+    "band": "BIG MOUTH Live!!!",
+    "venue": "Eightball Club, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Eightball Club",
+    "links": [
+      {
+        "source": "Eightball Club",
+        "url": "https://eightballclub.gr/event/big-mouth-live-%cf%80%ce%b1%cf%81%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ae-20-%ce%bd%ce%bf%ce%b5%ce%bc%ce%b2%cf%81%ce%af%ce%bf%cf%85-eightball-club/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "band": "Γιώργος Καρράς Γρεβενά",
     "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city, Other city",
@@ -310,7 +323,16 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/28/27527"
-      },
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "band": "Eddie Dark | Special guest Veslemes",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/eddie-dark/"
@@ -614,8 +636,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -1047,6 +1073,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/soen/"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-31",
+    "band": "MOONSPELL +IOTUNN +TODOMAL",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/moonspell-iotunn-todomal/"
       }
     ]
   },
