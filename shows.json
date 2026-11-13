@@ -636,12 +636,8 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -887,6 +883,19 @@
     ]
   },
   {
+    "date": "2027-02-20",
+    "band": "SCANNING THE SCENE FESTIVAL",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/scanning-the-scene-festival/"
+      }
+    ]
+  },
+  {
     "date": "2027-02-21",
     "band": "Hexvessel, The Butter Dreams",
     "venue": "Eightball, Thessaloniki",
@@ -896,19 +905,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/2/21/27499"
-      }
-    ]
-  },
-  {
-    "date": "2027-03-04",
-    "band": "UP THE HAMMERS XXI",
-    "venue": "Gagarin205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205",
-    "links": [
-      {
-        "source": "Gagarin 205",
-        "url": "https://gagarin205.gr/event/up-the-hammers-xxi/"
       }
     ]
   },
