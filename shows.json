@@ -1,73 +1,5 @@
 [
   {
-    "date": "2026-11-13",
-    "band": "Dire Straits Legacy",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/13/27537"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/13/27537"
-      },
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/dire-straits-legacy/"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-13",
-    "band": "Sólstafir",
-    "venue": "Eightball, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/13/27496"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/13/27496"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-13",
-    "band": "Sólstafir (IS) x",
-    "venue": "Eightball Club, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Eightball Club",
-    "links": [
-      {
-        "source": "Eightball Club",
-        "url": "https://eightballclub.gr/event/solstafir-is-x-13-11-2026-x-thessaloniki/"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-13",
-    "band": "Warning, The Temple",
-    "venue": "AN Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/13/27391"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/13/27391"
-      }
-    ]
-  },
-  {
     "date": "2026-11-14",
     "band": "Mother of Millions, Universe217, Deep Dive",
     "venue": "Arch Club, Athens",
@@ -909,6 +841,19 @@
     ]
   },
   {
+    "date": "2027-03-04",
+    "band": "UP THE HAMMERS XXI",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/up-the-hammers-xxi/"
+      }
+    ]
+  },
+  {
     "date": "2027-03-06",
     "band": "Planet of Zeus",
     "venue": "Venue TBA, Athens",
@@ -1160,6 +1105,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-13",
+    "band": "DIRE STRAITS LEGACY",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/dire-straits-legacy/"
       }
     ]
   }
