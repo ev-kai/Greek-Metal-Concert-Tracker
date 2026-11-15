@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-11-14",
-    "band": "Mother of Millions, Universe217, Deep Dive",
-    "venue": "Arch Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/14/27457"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-14",
-    "band": "Sólstafir",
-    "venue": "Fuzz Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/14/27497"
-      },
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/solstafir-2/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-20",
     "band": "BIG MOUTH Live!!!",
     "venue": "Eightball Club, Thessaloniki",
@@ -107,6 +77,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/kreator-overkill/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "band": "Yellow Eyes (US) & Isolert (GR) x",
+    "venue": "Eightball Club, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Eightball Club",
+    "links": [
+      {
+        "source": "Eightball Club",
+        "url": "https://eightballclub.gr/event/yellow-eyes-us-isolert-gr-x-24-11-2026-x-thessaloniki/"
       }
     ]
   },
@@ -1101,6 +1084,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-14",
+    "band": "Sólstafir",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Fuzz Club",
+    "links": [
+      {
+        "source": "Fuzz Club",
+        "url": "https://www.fuzzclub.gr/event/solstafir-2/"
       }
     ]
   }
