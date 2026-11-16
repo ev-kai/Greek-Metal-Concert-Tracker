@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-11-15",
-    "band": "Jehovah On Death, Lucenthia, This I Owe, Vespel",
-    "venue": "AN Club, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/15/27581"
-      }
-    ]
-  },
-  {
     "date": "2026-11-20",
     "band": "BIG MOUTH Live!!!",
     "venue": "Eightball Club, Thessaloniki",
@@ -427,6 +414,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/cabaret-voltaire/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-03",
+    "band": "THE OCEAN",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/the-ocean/"
       }
     ]
   },
