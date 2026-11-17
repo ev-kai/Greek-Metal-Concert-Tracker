@@ -591,6 +591,23 @@
     ]
   },
   {
+    "date": "2026-12-13",
+    "band": "Memorials, Masturbation Goes Cloud",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
+      }
+    ]
+  },
+  {
     "date": "2026-12-18",
     "band": "Old Man’s Child, Yoth Iria, Decipher",
     "venue": "Gagarin 205, Athens",
@@ -600,6 +617,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/18/27396"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-18",
+    "band": "Pagan",
+    "venue": "Fuzz Club Από 14,30 e, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/18/27586"
       }
     ]
   },
