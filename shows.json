@@ -47,19 +47,6 @@
     ]
   },
   {
-    "date": "2026-11-22",
-    "band": "ΜΙΧΑΛΗΣ ΣΕΒΑΣΤΕΡΗΣ “ΤΑ ΚΑΛΥΤΕΡΑ” – 22/11",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/michalis-sevasteris-ta-kalytera-22-11/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-23",
     "band": "Kreator, Overkill",
     "venue": "FLOYD, Athens",
@@ -167,23 +154,6 @@
   },
   {
     "date": "2026-11-27",
-    "band": "NAPALM DEATH",
-    "venue": "Gagarin205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205",
-    "links": [
-      {
-        "source": "Gagarin 205",
-        "url": "https://gagarin205.gr/event/napalm-death/"
-      },
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/napalm-death/"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-27",
     "band": "Napalm Death, Master, Brat, Goatburner",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
@@ -277,19 +247,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/28/27461"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-28",
-    "band": "ΠΑΙΔΙ ΤΡΑΥΜΑ",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/paidi-travma/"
       }
     ]
   },
@@ -414,19 +371,6 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/cabaret-voltaire/"
-      }
-    ]
-  },
-  {
-    "date": "2026-12-03",
-    "band": "THE OCEAN",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/the-ocean/"
       }
     ]
   },
@@ -682,19 +626,6 @@
     ]
   },
   {
-    "date": "2026-12-19",
-    "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
-      }
-    ]
-  },
-  {
     "date": "2026-12-24",
     "band": "1000mods",
     "venue": "FLOYD, Athens",
@@ -833,19 +764,6 @@
     ]
   },
   {
-    "date": "2027-02-20",
-    "band": "SCANNING THE SCENE FESTIVAL",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/scanning-the-scene-festival/"
-      }
-    ]
-  },
-  {
     "date": "2027-02-21",
     "band": "Hexvessel, The Butter Dreams",
     "venue": "Eightball, Thessaloniki",
@@ -907,23 +825,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/3/19/27559"
-      },
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/tarja/"
-      }
-    ]
-  },
-  {
-    "date": "2027-03-20",
-    "band": "IGORRR",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/igorrr/"
       }
     ]
   },
@@ -1019,32 +920,6 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/soen/"
-      }
-    ]
-  },
-  {
-    "date": "2027-03-31",
-    "band": "MOONSPELL +IOTUNN +TODOMAL",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/moonspell-iotunn-todomal/"
-      }
-    ]
-  },
-  {
-    "date": "2027-04-02",
-    "band": "FLORENCE ROAD",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/florence-road/"
       }
     ]
   },
