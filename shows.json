@@ -218,6 +218,23 @@
   },
   {
     "date": "2026-11-28",
+    "band": "Arab Strap",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/28/27597"
+      },
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/11/28/27597"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
     "band": "Eddie Dark",
     "venue": "FLOYD, Athens",
     "city": "athens",
@@ -595,12 +612,8 @@
     "band": "Memorials, Masturbation Goes Cloud",
     "venue": "AN Club, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
@@ -1123,6 +1136,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/24/27439"
+      }
+    ]
+  },
+  {
+    "date": "2027-05-15",
+    "band": "Crimson Glory, Omen",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/5/15/27595"
       }
     ]
   },
