@@ -445,6 +445,19 @@
   },
   {
     "date": "2026-12-05",
+    "band": "Fundracar, Mazoha",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/5/27592"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-05",
     "band": "Mother of Millions, Universe217, Altar of the Stag",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
@@ -582,8 +595,12 @@
     "band": "Memorials, Masturbation Goes Cloud",
     "venue": "AN Club, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
@@ -678,6 +695,19 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-20",
+    "band": "inner:i, Hypostasis, Infected Minds",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/20/27590"
       }
     ]
   },
@@ -1080,19 +1110,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/16/27571"
-      }
-    ]
-  },
-  {
-    "date": "2027-04-18",
-    "band": "Ο Eagle-Eye Cherry για πρώτη φορά στην Ελλάδα!",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Fuzz Club",
-    "links": [
-      {
-        "source": "Fuzz Club",
-        "url": "https://www.fuzzclub.gr/event/eagle-eye-cherry-live-in-greece/"
       }
     ]
   },
