@@ -573,8 +573,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -612,12 +616,8 @@
     "band": "Memorials, Masturbation Goes Cloud",
     "venue": "AN Club, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
@@ -877,19 +877,6 @@
   },
   {
     "date": "2027-02-20",
-    "band": "SCANNING THE SCENE FESTIVAL",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/scanning-the-scene-festival/"
-      }
-    ]
-  },
-  {
-    "date": "2027-02-20",
     "band": "Villagers Of Ioannina City",
     "venue": "Venue TBA, Athens",
     "city": "athens",
@@ -1140,6 +1127,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/24/27439"
+      }
+    ]
+  },
+  {
+    "date": "2027-05-07",
+    "band": "AS I LAY DYING",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/as-i-lay-dying-2/"
       }
     ]
   },
