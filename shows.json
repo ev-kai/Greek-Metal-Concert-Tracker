@@ -2,14 +2,10 @@
   {
     "date": "2026-11-21",
     "band": "Γιώργος Καρράς Γρεβενά",
-    "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city, Other city",
+    "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city",
     "city": "other",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/21/27556"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/21/27556"
@@ -222,6 +218,19 @@
   },
   {
     "date": "2026-11-28",
+    "band": "Arab Strap. (SCO)",
+    "venue": "Eightball Club, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Eightball Club",
+    "links": [
+      {
+        "source": "Eightball Club",
+        "url": "https://eightballclub.gr/event/arab-strap-sco-28-11-2026-thessaloniki/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
     "band": "Eddie Dark",
     "venue": "FLOYD, Athens",
     "city": "athens",
@@ -380,6 +389,32 @@
   },
   {
     "date": "2026-11-30",
+    "band": "Buy Tickets",
+    "venue": "Eightball Club, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Eightball Club",
+    "links": [
+      {
+        "source": "Eightball Club",
+        "url": "https://cometogether.live/el/event/6373/flotsam-jetsam-whiplash-live-in-salonica-30-11-2026?fbclid=IwY2xjawTxltlwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMUQ5U0V3Y1VCaHVNa21ISTRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEezOMDTf9FzGRLkN8t4umNrqmTdgvbolw89MNiVGJyuCuoD7Wa3i54SUWoShI_aem_yvUNaKcPpWV8BfnsHQhs9Q"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-30",
+    "band": "FLOTSAM & JETSAM – WHIPLASH Live in SALONICA",
+    "venue": "Eightball Club, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Eightball Club",
+    "links": [
+      {
+        "source": "Eightball Club",
+        "url": "https://eightballclub.gr/event/flotsam-jetsam-whiplash-live-in-salonica-30-11-2026/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-30",
     "band": "Flotsam And Jetsam, Whiplash",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
@@ -426,8 +461,12 @@
     "band": "Panzerfaust, Nihilism, Inner Darkness",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
@@ -534,12 +573,8 @@
     "band": "SPK",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/6/27474"
