@@ -397,6 +397,19 @@
   },
   {
     "date": "2026-12-03",
+    "band": "Black Curse, Cursed Blood",
+    "venue": "AN Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/3/27598"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-03",
     "band": "Cabaret Voltaire",
     "venue": "Venue TBA, Athens",
     "city": "athens",
@@ -405,6 +418,19 @@
       {
         "source": "Floyd",
         "url": "https://www.floyd.gr/event/cabaret-voltaire/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-03",
+    "band": "Panzerfaust, Nihilism, Inner Darkness",
+    "venue": "Temple, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
       }
     ]
   },
@@ -470,6 +496,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/5/27458"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-05",
+    "band": "Stoned Jesus, Monolord",
+    "venue": "Gazarte, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/5/27601"
       }
     ]
   },
