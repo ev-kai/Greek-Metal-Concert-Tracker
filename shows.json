@@ -4,12 +4,8 @@
     "band": "Prong",
     "venue": "Gazarte, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/22/27421"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/22/27421"
@@ -621,8 +617,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -807,12 +807,8 @@
     "band": "Clan of Xymox",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2027/1/9/27459"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/1/9/27459"
@@ -946,6 +942,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/2/21/27499"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-04",
+    "band": "UP THE HAMMERS XXI",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/up-the-hammers-xxi/"
       }
     ]
   },
