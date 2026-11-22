@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-11-21",
-    "band": "Γιώργος Καρράς Γρεβενά",
-    "venue": "Rock Cafe (Γρεβενά), Other city, Other city, Other city",
-    "city": "other",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/21/27556"
-      }
-    ]
-  },
-  {
     "date": "2026-11-22",
     "band": "Prong",
     "venue": "Gazarte, Athens",
@@ -461,12 +448,8 @@
     "band": "Panzerfaust, Nihilism, Inner Darkness",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
@@ -638,8 +621,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
