@@ -1,31 +1,5 @@
 [
   {
-    "date": "2026-11-22",
-    "band": "Prong",
-    "venue": "Gazarte, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/22/27421"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-22",
-    "band": "ΜΙΧΑΛΗΣ ΣΕΒΑΣΤΕΡΗΣ “ΤΑ ΚΑΛΥΤΕΡΑ” – 22/11",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/michalis-sevasteris-ta-kalytera-22-11/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-23",
     "band": "Kreator, Overkill",
     "venue": "FLOYD, Athens",
@@ -617,12 +591,8 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -807,8 +777,12 @@
     "band": "Clan of Xymox",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/1/9/27459"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/1/9/27459"
@@ -1236,6 +1210,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-22",
+    "band": "ΜΙΧΑΛΗΣ ΣΕΒΑΣΤΕΡΗΣ “ΤΑ ΚΑΛΥΤΕΡΑ” – 22/11",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/michalis-sevasteris-ta-kalytera-22-11/"
       }
     ]
   }
