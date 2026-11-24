@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-11-23",
-    "band": "Kreator, Overkill",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/23/27413"
-      },
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/23/27413"
-      },
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/kreator-overkill/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-24",
     "band": "Yellow Eyes (US) & Isolert (GR) x",
     "venue": "Eightball Club, Thessaloniki",
@@ -1223,6 +1202,19 @@
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/michalis-sevasteris-ta-kalytera-22-11/"
+      }
+    ]
+  },
+  {
+    "date": "2027-11-23",
+    "band": "KREATOR & OVERKILL",
+    "venue": "Venue TBA, Athens",
+    "city": "athens",
+    "source": "Floyd",
+    "links": [
+      {
+        "source": "Floyd",
+        "url": "https://www.floyd.gr/event/kreator-overkill/"
       }
     ]
   }
