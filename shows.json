@@ -1163,6 +1163,19 @@
     ]
   },
   {
+    "date": "2027-06-09",
+    "band": "Stratovarius, Fabio Lione's Dawn of Victory",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/6/9/27602"
+      }
+    ]
+  },
+  {
     "date": "2027-06-13",
     "band": "Axel Rudi Pell",
     "venue": "FLOYD, Athens",
@@ -1172,6 +1185,32 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/6/13/27558"
+      }
+    ]
+  },
+  {
+    "date": "2027-09-12",
+    "band": "Karnivool, Wheel",
+    "venue": "Eightball, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/9/12/27604"
+      }
+    ]
+  },
+  {
+    "date": "2027-09-13",
+    "band": "Karnivool, Wheel",
+    "venue": "Gagarin, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/9/13/27603"
       }
     ]
   }
