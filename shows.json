@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-11-24",
-    "band": "Yellow Eyes (US) & Isolert (GR) x",
-    "venue": "Eightball Club, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Eightball Club",
-    "links": [
-      {
-        "source": "Eightball Club",
-        "url": "https://eightballclub.gr/event/yellow-eyes-us-isolert-gr-x-24-11-2026-x-thessaloniki/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-26",
     "band": "Carpenter Brut",
     "venue": "FLOYD, Athens",
@@ -756,8 +743,12 @@
     "band": "Clan of Xymox",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/1/9/27459"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/1/9/27459"
