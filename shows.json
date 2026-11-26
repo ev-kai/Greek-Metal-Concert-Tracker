@@ -4,12 +4,8 @@
     "band": "Carpenter Brut",
     "venue": "FLOYD, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/26/27430"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/26/27430"
@@ -25,12 +21,8 @@
     "band": "Napalm Death, Master, Brat, Goatburner",
     "venue": "We, Thessaloniki",
     "city": "thessaloniki",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/26/27339"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/26/27339"
@@ -68,6 +60,23 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "band": "NAPALM DEATH",
+    "venue": "Gagarin205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205",
+    "links": [
+      {
+        "source": "Gagarin 205",
+        "url": "https://gagarin205.gr/event/napalm-death/"
+      },
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/napalm-death/"
       }
     ]
   },
@@ -196,6 +205,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/28/27461"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "band": "ΠΑΙΔΙ ΤΡΑΥΜΑ",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/paidi-travma/"
       }
     ]
   },
@@ -351,6 +373,19 @@
   },
   {
     "date": "2026-12-03",
+    "band": "Cabaret Voltaire, In Trance 95",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/3/27610"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-03",
     "band": "Panzerfaust, Nihilism, Inner Darkness",
     "venue": "Temple, Athens",
     "city": "athens",
@@ -359,6 +394,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-03",
+    "band": "THE OCEAN",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/the-ocean/"
       }
     ]
   },
@@ -514,8 +562,12 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -553,12 +605,8 @@
     "band": "Memorials, Masturbation Goes Cloud",
     "venue": "AN Club, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
@@ -843,6 +891,19 @@
     ]
   },
   {
+    "date": "2027-03-06",
+    "band": "Planet Of Zeus, Domination Inc.",
+    "venue": "FLOYD, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/6/27609"
+      }
+    ]
+  },
+  {
     "date": "2027-03-19",
     "band": "Conjurer",
     "venue": "Temple, Athens",
@@ -1090,6 +1151,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/9/12/27604"
+      }
+    ]
+  },
+  {
+    "date": "2027-09-13",
+    "band": "KARNIVOOL",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/karnivool/"
       }
     ]
   },
