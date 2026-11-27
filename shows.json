@@ -4,12 +4,8 @@
     "band": "Belle & Sebastian",
     "venue": "FLOYD, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27397"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27397"
@@ -21,12 +17,8 @@
     "band": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
@@ -36,14 +28,10 @@
   {
     "date": "2026-11-27",
     "band": "NAPALM DEATH",
-    "venue": "Gagarin205, Athens",
+    "venue": "Gagarin 205, Athens",
     "city": "athens",
-    "source": "Gagarin 205",
+    "source": "Gagarin 205 Announcements",
     "links": [
-      {
-        "source": "Gagarin 205",
-        "url": "https://gagarin205.gr/event/napalm-death/"
-      },
       {
         "source": "Gagarin 205 Announcements",
         "url": "https://gagarin205.gr/event/napalm-death/"
@@ -55,12 +43,8 @@
     "band": "Napalm Death, Master, Brat, Goatburner",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27340"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27340"
@@ -72,12 +56,8 @@
     "band": "Praying Mantis",
     "venue": "Eightball, Thessaloniki",
     "city": "thessaloniki",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27384"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/11/27/27384"
@@ -598,6 +578,19 @@
   },
   {
     "date": "2026-12-18",
+    "band": "OLD MAN’S CHILD",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/old-mans-child/"
+      }
+    ]
+  },
+  {
+    "date": "2026-12-18",
     "band": "Old Man’s Child, Yoth Iria, Decipher",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
@@ -1086,32 +1079,6 @@
     ]
   },
   {
-    "date": "2027-03-31",
-    "band": "MOONSPELL +IOTUNN +TODOMAL",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/moonspell-iotunn-todomal/"
-      }
-    ]
-  },
-  {
-    "date": "2027-04-02",
-    "band": "FLORENCE ROAD",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/florence-road/"
-      }
-    ]
-  },
-  {
     "date": "2027-04-10",
     "band": "Oh Hiroshima",
     "venue": "AN Club, Athens",
@@ -1147,19 +1114,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/24/27439"
-      }
-    ]
-  },
-  {
-    "date": "2027-05-07",
-    "band": "AS I LAY DYING",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/as-i-lay-dying-2/"
       }
     ]
   },
