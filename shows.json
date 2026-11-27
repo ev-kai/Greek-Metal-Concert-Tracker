@@ -359,8 +359,12 @@
     "band": "Panzerfaust, Nihilism, Inner Darkness",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
@@ -671,6 +675,19 @@
     ]
   },
   {
+    "date": "2026-12-19",
+    "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
+      }
+    ]
+  },
+  {
     "date": "2026-12-20",
     "band": "inner:i, Hypostasis, Infected Minds",
     "venue": "Temple, Athens",
@@ -779,6 +796,32 @@
     ]
   },
   {
+    "date": "2027-02-05",
+    "band": "Band Of Friends - Rory Gallagher Tribute, Two",
+    "venue": "Eightball Από 23,5 €, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/2/5/27617"
+      }
+    ]
+  },
+  {
+    "date": "2027-02-06",
+    "band": "Band Of Friends - Rory Gallagher Tribute, Two",
+    "venue": "Gagarin 205 Από 23,5 €, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/2/6/27616"
+      }
+    ]
+  },
+  {
     "date": "2027-02-11",
     "band": "Black Veil Brides",
     "venue": "FLOYD, Athens",
@@ -879,6 +922,32 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/3/6/27609"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-16",
+    "band": "Carcass, Rotten Sound, Bat",
+    "venue": "Principal Club Theater: Mylos Area, Thessaloniki",
+    "city": "thessaloniki",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/16/27614"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-17",
+    "band": "Carcass, Rotten Sound, Bat",
+    "venue": "Fuzz Club, Athens",
+    "city": "athens",
+    "source": "Rocking.gr Future Agenda",
+    "links": [
+      {
+        "source": "Rocking.gr Future Agenda",
+        "url": "https://www.rocking.gr/agenda/2027/3/17/27615"
       }
     ]
   },
@@ -1017,6 +1086,32 @@
     ]
   },
   {
+    "date": "2027-03-31",
+    "band": "MOONSPELL +IOTUNN +TODOMAL",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/moonspell-iotunn-todomal/"
+      }
+    ]
+  },
+  {
+    "date": "2027-04-02",
+    "band": "FLORENCE ROAD",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/florence-road/"
+      }
+    ]
+  },
+  {
     "date": "2027-04-10",
     "band": "Oh Hiroshima",
     "venue": "AN Club, Athens",
@@ -1052,6 +1147,19 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/24/27439"
+      }
+    ]
+  },
+  {
+    "date": "2027-05-07",
+    "band": "AS I LAY DYING",
+    "venue": "Gagarin 205, Athens",
+    "city": "athens",
+    "source": "Gagarin 205 Announcements",
+    "links": [
+      {
+        "source": "Gagarin 205 Announcements",
+        "url": "https://gagarin205.gr/event/as-i-lay-dying-2/"
       }
     ]
   },
@@ -1156,19 +1264,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/9/13/27603"
-      }
-    ]
-  },
-  {
-    "date": "2027-11-26",
-    "band": "Carpenter Brut",
-    "venue": "Venue TBA, Athens",
-    "city": "athens",
-    "source": "Floyd",
-    "links": [
-      {
-        "source": "Floyd",
-        "url": "https://www.floyd.gr/event/carpenter-brut/"
       }
     ]
   }
