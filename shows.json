@@ -1,70 +1,5 @@
 [
   {
-    "date": "2026-11-27",
-    "band": "Belle & Sebastian",
-    "venue": "FLOYD, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27397"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-27",
-    "band": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
-    "venue": "Temple, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27442"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-27",
-    "band": "NAPALM DEATH",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/napalm-death/"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-27",
-    "band": "Napalm Death, Master, Brat, Goatburner",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27340"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-27",
-    "band": "Praying Mantis",
-    "venue": "Eightball, Thessaloniki",
-    "city": "thessaloniki",
-    "source": "Rocking.gr Future Agenda",
-    "links": [
-      {
-        "source": "Rocking.gr Future Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/11/27/27384"
-      }
-    ]
-  },
-  {
     "date": "2026-11-28",
     "band": "Arab Strap",
     "venue": "Eightball, Thessaloniki",
@@ -339,12 +274,8 @@
     "band": "Panzerfaust, Nihilism, Inner Darkness",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
@@ -578,19 +509,6 @@
   },
   {
     "date": "2026-12-18",
-    "band": "OLD MAN’S CHILD",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/old-mans-child/"
-      }
-    ]
-  },
-  {
-    "date": "2026-12-18",
     "band": "Old Man’s Child, Yoth Iria, Decipher",
     "venue": "Gagarin 205, Athens",
     "city": "athens",
@@ -668,25 +586,16 @@
     ]
   },
   {
-    "date": "2026-12-19",
-    "band": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/jameson-connects-god-is-an-astronaut/"
-      }
-    ]
-  },
-  {
     "date": "2026-12-20",
     "band": "inner:i, Hypostasis, Infected Minds",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/20/27590"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/20/27590"
