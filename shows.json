@@ -94,19 +94,6 @@
     ]
   },
   {
-    "date": "2026-11-28",
-    "band": "ΠΑΙΔΙ ΤΡΑΥΜΑ",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/paidi-travma/"
-      }
-    ]
-  },
-  {
     "date": "2026-11-29",
     "band": "Arab Strap",
     "venue": "Gazarte, Athens",
@@ -274,24 +261,15 @@
     "band": "Panzerfaust, Nihilism, Inner Darkness",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Future Agenda",
+    "source": "Rocking.gr Agenda",
     "links": [
+      {
+        "source": "Rocking.gr Agenda",
+        "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
+      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/3/27599"
-      }
-    ]
-  },
-  {
-    "date": "2026-12-03",
-    "band": "THE OCEAN",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/the-ocean/"
       }
     ]
   },
@@ -460,12 +438,8 @@
     "band": "Warhammer, Hope Behind the Hills, Noxulifer",
     "venue": "Temple, Athens",
     "city": "athens",
-    "source": "Rocking.gr Agenda",
+    "source": "Rocking.gr Future Agenda",
     "links": [
-      {
-        "source": "Rocking.gr Agenda",
-        "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
-      },
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/11/27482"
@@ -508,19 +482,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2026/12/13/27471"
-      }
-    ]
-  },
-  {
-    "date": "2026-12-18",
-    "band": "OLD MAN’S CHILD",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/old-mans-child/"
       }
     ]
   },
@@ -902,23 +863,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/3/19/27559"
-      },
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/tarja/"
-      }
-    ]
-  },
-  {
-    "date": "2027-03-20",
-    "band": "IGORRR",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/igorrr/"
       }
     ]
   },
@@ -1018,32 +962,6 @@
     ]
   },
   {
-    "date": "2027-03-31",
-    "band": "MOONSPELL +IOTUNN +TODOMAL",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/moonspell-iotunn-todomal/"
-      }
-    ]
-  },
-  {
-    "date": "2027-04-02",
-    "band": "FLORENCE ROAD",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/florence-road/"
-      }
-    ]
-  },
-  {
     "date": "2027-04-10",
     "band": "Oh Hiroshima",
     "venue": "AN Club, Athens",
@@ -1079,19 +997,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/4/24/27439"
-      }
-    ]
-  },
-  {
-    "date": "2027-05-07",
-    "band": "AS I LAY DYING",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/as-i-lay-dying-2/"
       }
     ]
   },
@@ -1170,19 +1075,6 @@
       {
         "source": "Rocking.gr Future Agenda",
         "url": "https://www.rocking.gr/agenda/2027/9/12/27604"
-      }
-    ]
-  },
-  {
-    "date": "2027-09-13",
-    "band": "KARNIVOOL",
-    "venue": "Gagarin 205, Athens",
-    "city": "athens",
-    "source": "Gagarin 205 Announcements",
-    "links": [
-      {
-        "source": "Gagarin 205 Announcements",
-        "url": "https://gagarin205.gr/event/karnivool/"
       }
     ]
   },
